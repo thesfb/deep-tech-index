@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deep Tech Index — the videos that actually teach you something</title>
+<meta name="description" content="Security, computer science, electrical and mechanical engineering, physics, maths and chemistry — lectures, teardowns and deep dives with real signal. No TED fluff.">
+<link rel="preconnect" href="https://i.ytimg.com">
+<style>
+/* ---------- tokens ---------- */
+:root{
+  --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+  --r-sm: 8px; --r-md: 12px; --r-lg: 18px; --r-xl: 26px;
+  --step--1: clamp(.78rem,.75rem + .15vw,.86rem);
+  --step-0:  clamp(.94rem,.9rem + .2vw,1.02rem);
+  --step-1:  clamp(1.06rem,1rem + .35vw,1.22rem);
+  --step-2:  clamp(1.3rem,1.15rem + .7vw,1.72rem);
+  --step-3:  clamp(1.7rem,1.4rem + 1.5vw,2.6rem);
+  --step-4:  clamp(2.2rem,1.7rem + 2.6vw,3.6rem);
+  --pad: clamp(16px,4vw,40px);
+  --ease: cubic-bezier(.22,.61,.36,1);
+}
+[data-theme="dark"]{
+  --bg:#0c0d10; --bg-2:#121419; --surface:#171a20; --surface-2:#1e222a;
+  --glass:rgba(22,25,31,.72); --glass-brd:rgba(255,255,255,.09);
+  --ink:#f4f5f7; --ink-2:#c3c8d2; --ink-3:#8b92a0;
+  --brd:rgba(255,255,255,.08); --brd-2:rgba(255,255,255,.14);
+  --accent:#ff5c39; --accent-ink:#fff; --accent-soft:rgba(255,92,57,.14);
+  --sec:#ff6b6b; --hpc:#5cc8ff; --craft:#b79cff;
+  --lane-security:#ff6b6b; --lane-cs:#5cc8ff; --lane-ee:#ffc14d;
+  --lane-mech:#7ee0a8; --lane-physics:#b79cff; --lane-math:#ff9ad5;
+  --lane-chem:#5ce0d0;
+  --shadow:0 1px 2px rgba(0,0,0,.5), 0 12px 34px rgba(0,0,0,.42);
+  --shadow-glow:0 18px 50px rgba(0,0,0,.6);
+}
+[data-theme="light"]{
+  --bg:#f7f8fa; --bg-2:#fff; --surface:#fff; --surface-2:#f1f3f7;
+  --glass:rgba(255,255,255,.74); --glass-brd:rgba(12,13,16,.07);
+  --ink:#14161b; --ink-2:#4a5060; --ink-3:#6d7482;
+  --brd:rgba(12,13,16,.09); --brd-2:rgba(12,13,16,.16);
+  --accent:#e8441f; --accent-ink:#fff; --accent-soft:rgba(232,68,31,.1);
+  --sec:#d6453f; --hpc:#0f7fb5; --craft:#6b4fd8;
+  --lane-security:#d6453f; --lane-cs:#0f7fb5; --lane-ee:#b07400;
+  --lane-mech:#1f8f56; --lane-physics:#6b4fd8; --lane-math:#c2328f;
+  --lane-chem:#0a8f88;
+  --shadow:0 1px 2px rgba(16,20,30,.06), 0 10px 30px rgba(16,20,30,.09);
+  --shadow-glow:0 20px 55px rgba(16,20,30,.16);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--bg); color:var(--ink); font-family:var(--font);
+  font-size:var(--step-0); line-height:1.55;
+  -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+  overflow-x:hidden;
+}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* ---------- ambient light ---------- */
+.amb{position:fixed;inset:0;z-index:0;pointer-events:none;opacity:.5}
+[data-theme="dark"] .amb{
+  background:
+    radial-gradient(900px 480px at 12% -6%, rgba(255,92,57,.14), transparent 60%),
+    radial-gradient(760px 420px at 88% 4%, rgba(92,200,255,.1), transparent 62%);
+}
+[data-theme="light"] .amb{
+  background:
+    radial-gradient(900px 480px at 12% -6%, rgba(232,68,31,.07), transparent 60%),
+    radial-gradient(760px 420px at 88% 4%, rgba(15,127,181,.07), transparent 62%);
+}
+
+/* ---------- header ---------- */
+header{
+  position:sticky;top:0;z-index:40;
+  background:var(--glass); backdrop-filter:blur(22px) saturate(1.5);
+  -webkit-backdrop-filter:blur(22px) saturate(1.5);
+  border-bottom:1px solid var(--glass-brd);
+}
+.hbar{
+  max-width:1560px;margin:0 auto;padding:11px var(--pad);
+  display:flex;align-items:center;gap:14px;
+}
+.brand{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.logo{
+  width:32px;height:32px;border-radius:9px;flex-shrink:0;
+  background:var(--accent);color:#fff;
+  display:grid;place-items:center;box-shadow:0 4px 14px var(--accent-soft);
+}
+.logo svg{width:17px;height:17px}
+.bname{font-weight:700;font-size:var(--step-1);letter-spacing:-.022em;white-space:nowrap}
+.bname span{color:var(--ink-3);font-weight:500}
+.search{
+  flex:1;max-width:620px;position:relative;display:flex;align-items:center;
+}
+.search svg{position:absolute;left:13px;width:16px;height:16px;color:var(--ink-3);pointer-events:none}
+.search input{
+  width:100%;padding:9px 15px 9px 38px;border-radius:999px;
+  background:var(--surface-2);border:1px solid var(--brd);
+  color:var(--ink);font-size:var(--step--1);outline:none;
+  transition:border-color .18s var(--ease), background .18s var(--ease);
+}
+.search input::placeholder{color:var(--ink-3);opacity:1}
+.search input:focus{border-color:var(--accent);background:var(--surface)}
+.hbtns{display:flex;align-items:center;gap:8px;margin-left:auto;flex-shrink:0}
+.icon-btn{
+  width:38px;height:38px;border-radius:50%;display:grid;place-items:center;
+  color:var(--ink-2);border:1px solid transparent;transition:.18s var(--ease);
+}
+.icon-btn:hover{background:var(--surface-2);color:var(--ink);border-color:var(--brd)}
+.icon-btn svg{width:18px;height:18px}
+
+/* ---------- hero ---------- */
+.hero{position:relative;z-index:1;max-width:1560px;margin:0 auto;
+  padding:clamp(30px,4.4vw,52px) var(--pad) 22px;
+  display:grid;grid-template-columns:minmax(0,1.15fr) minmax(260px,.85fr);
+  gap:clamp(24px,4vw,64px);align-items:end}
+@media (max-width:900px){.hero{grid-template-columns:1fr;gap:26px}}
+.kicker{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:var(--step--1);font-weight:600;color:var(--ink-2);
+  background:var(--surface);border:1px solid var(--brd);
+  padding:6px 13px;border-radius:999px;margin-bottom:18px;
+}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--accent);
+  box-shadow:0 0 0 3px var(--accent-soft)}
+h1{
+  font-size:var(--step-4);line-height:1.02;letter-spacing:-.038em;
+  font-weight:800;margin:0 0 14px;max-width:16ch;
+}
+h1 em{font-style:normal;color:var(--accent)}
+.lede{
+  font-size:var(--step-0);color:var(--ink-2);max-width:48ch;
+  margin:0;line-height:1.52;
+}
+.note{
+  font-size:var(--step--1);color:var(--ink-2);line-height:1.5;
+  border-left:2px solid var(--accent);padding-left:14px;margin:0;
+}
+.note b{color:var(--ink);font-weight:650;display:block;margin-bottom:3px;
+  font-size:var(--step-0)}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;
+  background:var(--brd);border:1px solid var(--brd);border-radius:var(--r-lg);
+  overflow:hidden;margin-top:26px}
+.stat{background:var(--bg);padding:14px 16px}
+.stat b{display:block;font-size:var(--step-2);font-weight:750;
+  letter-spacing:-.03em;line-height:1;margin-bottom:3px}
+.stat span{font-size:var(--step--1);color:var(--ink-3);font-weight:500}
+
+/* ---------- rail (filters) ---------- */
+.rail-wrap{
+  position:relative;z-index:20;
+  background:var(--glass);backdrop-filter:blur(18px) saturate(1.4);
+  -webkit-backdrop-filter:blur(18px) saturate(1.4);
+  border-bottom:1px solid var(--glass-brd);
+}
+.card{scroll-margin-top:80px}
+.rail{
+  max-width:1560px;margin:0 auto;padding:11px var(--pad);
+  display:flex;flex-wrap:wrap;gap:9px;align-items:center;
+  overflow-x:auto;scrollbar-width:none;
+}
+.rail::-webkit-scrollbar{display:none}
+.chip{
+  padding:6px 13px;border-radius:999px;white-space:nowrap;
+  background:var(--surface);border:1px solid var(--brd);
+  font-size:var(--step--1);font-weight:600;color:var(--ink-2);
+  transition:.16s var(--ease);
+  flex:0 0 auto;
+}
+.chip:hover{border-color:var(--brd-2);color:var(--ink)}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip .n{opacity:.55;margin-left:6px;font-weight:500}
+.sortsel{
+  margin-left:auto;display:flex;align-items:center;gap:7px;
+  font-size:var(--step--1);color:var(--ink-3);white-space:nowrap;
+  flex:0 0 auto;
+}
+.sortsel select{
+  background:var(--surface);border:1px solid var(--brd);color:var(--ink);
+  border-radius:999px;padding:7px 11px;font-size:var(--step--1);font-weight:600;
+  font-family:inherit;cursor:pointer;
+}
+
+/* ---------- grid ---------- */
+main{position:relative;z-index:1;max-width:1560px;margin:0 auto;padding:24px var(--pad) 90px}
+.section-h{
+  display:flex;align-items:baseline;gap:12px;margin:0 0 20px;
+  padding-bottom:12px;border-bottom:1px solid var(--brd);
+}
+.section-h h2{font-size:var(--step-2);font-weight:750;letter-spacing:-.028em;margin:0}
+.section-h p{margin:0;color:var(--ink-3);font-size:var(--step--1)}
+.grid{
+  display:grid;gap:clamp(18px,2.4vw,30px);
+  grid-template-columns:repeat(auto-fill,minmax(min(100%,310px),1fr));
+}
+.card{
+  display:flex;flex-direction:column;text-align:left;
+  animation:rise .5s var(--ease) both;
+}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.thumb{
+  position:relative;aspect-ratio:16/9;border-radius:var(--r-lg);overflow:hidden;
+  background:var(--surface-2);box-shadow:var(--shadow);
+  transition:transform .26s var(--ease), box-shadow .26s var(--ease);
+}
+.card:hover .thumb{transform:translateY(-4px);box-shadow:var(--shadow-glow)}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.thumb.noload{background:
+  linear-gradient(135deg,var(--surface-2),var(--surface));}
+.thumb.noload::after{
+  content:"▶";position:absolute;inset:0;display:grid;place-items:center;
+  font-size:26px;color:var(--ink-3);opacity:.5}
+.play{
+  position:absolute;inset:0;display:grid;place-items:center;
+  background:linear-gradient(180deg,rgba(0,0,0,0) 40%,rgba(0,0,0,.55));
+  opacity:0;transition:opacity .24s var(--ease);
+}
+.card:hover .play{opacity:1}
+.play i{
+  width:54px;height:54px;border-radius:50%;background:rgba(255,255,255,.94);
+  display:grid;place-items:center;box-shadow:0 8px 26px rgba(0,0,0,.4);
+}
+.play svg{width:20px;height:20px;color:#111;margin-left:3px}
+.badge{
+  position:absolute;top:11px;left:11px;
+  display:flex;align-items:center;gap:5px;padding:5px 10px;border-radius:999px;
+  font-size:.7rem;font-weight:700;letter-spacing:.01em;
+  background:var(--glass);backdrop-filter:blur(12px);
+  -webkit-backdrop-filter:blur(12px);
+  border:1px solid var(--glass-brd);color:var(--ink);
+}
+.badge b{color:var(--accent)}
+.more-wrap{display:flex;justify-content:center;margin-top:38px}
+.more{
+  padding:12px 30px;border-radius:999px;background:var(--surface);
+  border:1px solid var(--brd-2);color:var(--ink);
+  font-size:var(--step-0);font-weight:650;transition:.18s var(--ease);
+}
+.more:hover{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.dur{
+  position:absolute;bottom:10px;right:10px;padding:3px 7px;border-radius:6px;
+  background:rgba(0,0,0,.78);color:#fff;font-size:.72rem;font-weight:650;
+  font-variant-numeric:tabular-nums;
+}
+.cbody{padding:13px 3px 0}
+.ctitle{
+  font-size:var(--step-0);font-weight:650;line-height:1.34;letter-spacing:-.015em;
+  margin:0 0 7px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;
+  overflow:hidden;min-height:2.7em;
+}
+.card:hover .ctitle{color:var(--accent)}
+.cmeta{font-size:var(--step--1);margin:0;display:flex;gap:7px;
+  align-items:center;overflow:hidden;white-space:nowrap}
+.cmeta .ch{color:var(--ink-2);font-weight:550;overflow:hidden;
+  text-overflow:ellipsis;min-width:0}
+.cmeta .vw{color:var(--ink-2);flex-shrink:0;font-variant-numeric:tabular-nums}
+.sep{opacity:.4;flex-shrink:0}
+.lane-tag{display:inline-flex;align-items:center;gap:5px;font-weight:600;
+  flex-shrink:0;color:var(--ink)}
+.lane-tag i{width:6px;height:6px;border-radius:50%;flex-shrink:0}
+.lane-security i{background:var(--lane-security)}
+.lane-cs i{background:var(--lane-cs)}
+.lane-ee i{background:var(--lane-ee)}
+.lane-mech i{background:var(--lane-mech)}
+.lane-physics i{background:var(--lane-physics)}
+.lane-math i{background:var(--lane-math)}
+.lane-chem i{background:var(--lane-chem)}
+.quotebtn{
+  margin-top:9px;font-size:var(--step--1);color:var(--ink-3);font-weight:550;
+  display:inline-flex;align-items:center;gap:5px;transition:color .16s var(--ease);
+}
+.quotebtn:hover{color:var(--accent)}
+.quotebtn svg{width:12px;height:12px;transition:transform .2s var(--ease)}
+.quotebtn[aria-expanded="true"] svg{transform:rotate(90deg)}
+.quote{
+  position:relative;margin:9px 0 0;padding:13px 15px 12px 34px;
+  border-radius:var(--r-md);
+  background:var(--surface);border:1px solid var(--brd);
+  font-size:var(--step--1);color:var(--ink);line-height:1.5;
+}
+.quote::before{
+  content:"\201C";position:absolute;left:11px;top:5px;
+  font-size:30px;line-height:1;color:var(--accent);opacity:.55;
+  font-family:Georgia,serif;
+}
+.quote cite{display:block;margin-top:9px;color:var(--ink-2);font-style:normal;
+  font-size:.85em;font-weight:600}
+.quote cite a{color:var(--accent)}
+.quote[hidden]{display:none}
+
+.empty{text-align:center;padding:80px 20px;color:var(--ink-3)}
+.empty b{display:block;color:var(--ink);font-size:var(--step-1);margin-bottom:6px}
+
+footer{
+  position:relative;z-index:1;border-top:1px solid var(--brd);
+  max-width:1560px;margin:0 auto;padding:26px var(--pad) 50px;
+  color:var(--ink-3);font-size:var(--step--1);
+  display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between;
+}
+footer a{color:var(--ink-2);font-weight:550}
+footer a:hover{color:var(--accent)}
+
+@media (max-width:720px){
+  .hbtns .lbl{display:none}
+  .search{max-width:none}
+  .brand .bname{display:none}
+  .stats{gap:20px}
+  .sortsel{margin-left:0;width:100%;justify-content:flex-start}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+}
+</style>
+</head>
+<body>
+<div class="amb" aria-hidden="true"></div>
+
+<header>
+  <div class="hbar">
+    <a class="brand" href="#" aria-label="Deep Tech Index home">
+      <span class="logo" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3" fill="currentColor" stroke="none"/></svg>
+      </span>
+      <span class="bname">Deep&nbsp;Tech&nbsp;Index <span>/ videos</span></span>
+    </a>
+    <label class="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Search videos, channels, topics…" autocomplete="off" aria-label="Search videos">
+    </label>
+    <div class="hbtns">
+      <button class="icon-btn" id="theme" title="Toggle theme" aria-label="Toggle theme">
+        <svg id="themeicon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div>
+    <span class="kicker"><span class="dot"></span> Deep tech · no TED fluff</span>
+    <h1>The videos that actually <em>teach you something</em>.</h1>
+    <p class="lede">
+      Security, computer science, electrical and mechanical engineering, physics,
+      maths, chemistry — the lectures, teardowns, and deep dives that carry real
+      signal. Sourced from the talks HN keeps recommending, plus the most-watched
+      technical work of the channels that matter in each field.
+    </p>
+  </div>
+  <div>
+    <p class="note">
+      <b>What's excluded</b>
+      No motivational content, no TED-style talks, no lifestyle vlogs, no
+      clickbait tutorials. Every entry is verified live against YouTube for its
+      real title and channel — nothing is invented. HN entries additionally show
+      how many times the video was recommended in comments.
+    </p>
+    <div class="stats" id="stats"></div>
+  </div>
+</section>
+
+<div class="rail-wrap">
+  <div class="rail" id="rail" role="group" aria-label="Filter by lane"></div>
+</div>
+
+<main>
+  <div class="section-h">
+    <h2 id="sh">All talks</h2>
+    <p id="shp"></p>
+  </div>
+  <div class="grid" id="grid"></div>
+  <div class="more-wrap" id="morewrap"></div>
+  <div class="empty" id="empty" hidden>
+    <b>Nothing matches that</b>
+    Try a channel name like “DEFCON” or a topic like “compiler”.
+  </div>
+</main>
+
+<footer>
+  <span>Sources: Hacker News (hn.algolia.com) + curated deep-tech channels · YouTube oEmbed verified · Built locally, no tracking.</span>
+  <span id="gen"></span>
+</footer>
+
+<script>
+const DATA_URL = "data/videos.json";
+let ALL = [], LANE = "all", Q = "", SORT = "views", SHOWN = 24;
+const PAGE = 24;
+
+const LANES = {
+  all:      {label:"All talks"},
+  security: {label:"Cybersecurity"},
+  cs:       {label:"Computer science"},
+  ee:       {label:"Electrical engineering"},
+  mech:     {label:"Mechanical & aerospace"},
+  physics:  {label:"Physics"},
+  math:     {label:"Mathematics"},
+  chem:     {label:"Chemistry & materials"},
+};
+
+const $ = s => document.querySelector(s);
+const esc = s => (s||"").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const nfmt = n => n >= 1e6 ? (n/1e6).toFixed(1).replace(/\.0$/,"")+"M"
+             : n >= 1e3 ? (n/1e3).toFixed(n>=1e4?0:1).replace(/\.0$/,"")+"K" : ""+n;
+const dur = s => { if(!s) return ""; const h=Math.floor(s/3600), m=Math.floor(s%3600/60), x=s%60;
+  return (h? h+":"+String(m).padStart(2,"0") : m) + ":" + String(x).padStart(2,"0"); };
+
+/* theme: dark default, remembered, no flash (inline below) */
+function paintTheme(t){
+  document.documentElement.dataset.theme = t;
+  localStorage.setItem("hnc-theme", t);
+  const i = $("#themeicon");
+  i.innerHTML = t === "dark"
+    ? '<circle cx="12" cy="12" r="4.2"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>'
+    : '<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/>';
+}
+$("#theme").addEventListener("click", () =>
+  paintTheme(document.documentElement.dataset.theme === "dark" ? "light" : "dark"));
+
+function counts(){
+  const c = {all: ALL.length, security:0, cs:0, ee:0, mech:0, physics:0, math:0, chem:0};
+  ALL.forEach(v => { if (c[v.lane] !== undefined) c[v.lane]++; });
+  return c;
+}
+function renderRail(){
+  const c = counts();
+  $("#rail").innerHTML = Object.entries(LANES).map(([k,v])=>
+    `<button class="chip" data-lane="${k}" aria-pressed="${k===LANE}">
+       ${v.label}<span class="n">${c[k]||0}</span></button>`).join("")
+    + `<span class="sortsel"><label for="sort">Sort</label>
+       <select id="sort">
+         <option value="views">Most viewed</option>
+         <option value="repeats">Most recommended on HN</option>
+         <option value="recent">Newest</option>
+       </select></span>`;
+  $("#rail").querySelectorAll("[data-lane]").forEach(b =>
+    b.onclick = () => { LANE = b.dataset.lane; SHOWN = PAGE; render(); });
+  const s = $("#sort"); s.value = SORT;
+  s.onchange = () => { SORT = s.value; SHOWN = PAGE; renderGrid(); };
+}
+function filtered(){
+  const q = Q.trim().toLowerCase();
+  let out = ALL.filter(v => LANE === "all" || v.lane === LANE);
+  if(q){
+    out = out.filter(v => (v.yt_title+" "+v.channel+" "+v.best_text+" "+
+      (v.story_titles||[]).join(" ")).toLowerCase().includes(q));
+  }
+  const s = {repeats:(a,b)=> b.repeat_count-a.repeat_count || b.views-a.views,
+             views:(a,b)=> b.views-a.views,
+             recent:(a,b)=> (b.published||"").localeCompare(a.published||"")}[SORT];
+  return out.slice().sort(s);
+}
+/* strip raw video URLs from quote text — the link is already the card */
+const cleanQuote = s => (s||"")
+  .replace(/https?:\/\/(www\.)?(youtube\.com|youtu\.be)\/\S+/gi, "")
+  .replace(/\s{2,}/g," ").replace(/\s+([.,;])/g,"$1").trim();
+
+function card(v){
+  // badge logic: HN talks show repeat-recommendation count (the whole premise).
+  // Deep-tech picks show view count, which is the crowd's verdict there.
+  let badge = "";
+  if (v.repeat_count > 1) {
+    badge = `<span class="badge"><b>${v.repeat_count}×</b> on HN</span>`;
+  } else if (v.source === "hn") {
+    badge = `<span class="badge">via HN</span>`;
+  } else if (v.views >= 1000000) {
+    badge = `<span class="badge"><b>${nfmt(v.views)}</b> views</span>`;
+  }
+  const quote = cleanQuote(v.best_text);
+  return `<article class="card">
+    <a class="thumb" href="${v.yt_url}" target="_blank" rel="noopener" aria-label="${esc(v.yt_title)}">
+      <img loading="lazy" src="${v.thumbnail}" alt="" onerror="this.parentNode.classList.add('noload')">
+      ${badge}
+      ${v.duration?`<span class="dur">${dur(v.duration)}</span>`:""}
+      <span class="play" aria-hidden="true"><i>
+        <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="6 4 20 12 6 20"/></svg>
+      </i></span>
+    </a>
+    <div class="cbody">
+      <h3 class="ctitle">${esc(v.yt_title)}</h3>
+      <p class="cmeta">
+        <span class="lane-tag lane-${v.lane}"><i></i>${LANES[v.lane].label}</span>
+        <span class="sep">·</span><span class="ch">${esc(v.channel)}</span>
+        ${v.views?`<span class="sep">·</span><span class="vw">${nfmt(v.views)} views</span>`:""}
+      </p>
+      ${quote.length > 12 ? `<button class="quotebtn" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"/></svg>
+        Why HN recommended it</button>
+      <blockquote class="quote" hidden>${esc(quote)}
+        <cite>${esc(v.best_author||"HN user")}${v.best_story? ` · “${esc(v.best_story)}”`:""}</cite>
+      </blockquote>` : ""}
+    </div>
+  </article>`;
+}
+function wireQuotes(){
+  $("#grid").querySelectorAll(".quotebtn").forEach(b =>
+    b.onclick = () => { const q = b.nextElementSibling;
+      const open = q.hidden; q.hidden = !open;
+      b.setAttribute("aria-expanded", String(open)); });
+}
+function renderGrid(){
+  const vids = filtered();
+  const page = vids.slice(0, SHOWN);
+  $("#grid").innerHTML = page.map(card).join("");
+  $("#empty").hidden = vids.length > 0;
+  const lbl = LANES[LANE].label;
+  $("#sh").textContent = Q ? `Results for “${Q}”` : lbl;
+  $("#shp").textContent = `${vids.length} ${vids.length===1?"talk":"talks"}` +
+    (Q ? ` with “${Q}”` : "") + (SHOWN < vids.length ? ` · showing ${SHOWN}` : "");
+  // load-more
+  const mw = $("#morewrap");
+  mw.innerHTML = SHOWN < vids.length
+    ? `<button class="more">Show ${Math.min(PAGE, vids.length-SHOWN)} more talks</button>` : "";
+  const mb = mw.querySelector(".more");
+  if(mb) mb.onclick = () => { SHOWN += PAGE; renderGrid(); };
+  $("#grid").querySelectorAll(".card").forEach((c,i)=>
+    c.style.animationDelay = Math.min(i,14)*34+"ms");
+  wireQuotes();
+}
+function renderStats(){
+  const chans = new Set(ALL.map(v => v.channel)).size;
+  const c = counts();
+  const totalViews = ALL.reduce((a,v)=>a+(v.views||0),0);
+  $("#stats").innerHTML = [
+    [c.all, "videos"],
+    [chans, "channels"],
+    [nfmt(totalViews), "combined views"],
+    [7, "engineering fields"],
+  ].map(([n,l])=>`<div class="stat"><b>${n}</b><span>${l}</span></div>`).join("");
+}
+function render(){ renderRail(); renderGrid(); }
+
+$("#q").addEventListener("input", e => { Q = e.target.value; SHOWN = PAGE; renderGrid(); });
+
+fetch(DATA_URL).then(r => r.json()).then(d => {
+  ALL = d.videos || [];
+  $("#gen").textContent = `Last mined ${d.generated}`;
+  paintTheme(document.documentElement.dataset.theme || "dark");
+  renderStats(); render();
+}).catch(()=>{
+  $("#grid").innerHTML = '<p class="empty"><b>Could not load data</b>Serve this folder over HTTP (see README).</p>';
+});
+</script>
+<script>
+/* pre-paint theme to avoid flash */
+(function(){try{var t=localStorage.getItem("hnc-theme")||"dark";
+document.documentElement.dataset.theme=t;}catch(e){}})();
+</script>
+</body>
+</html>

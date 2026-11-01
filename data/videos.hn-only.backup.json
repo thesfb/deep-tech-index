@@ -1,0 +1,3245 @@
+{
+ "generated": 1793565679.8007956,
+ "source": "Hacker News comments (hn.algolia.com public API)",
+ "method": "YouTube links mined from HN comments, repeat-counted, verified live via YouTube oEmbed",
+ "count": 97,
+ "videos": [
+  {
+   "video_id": "Z7Wl2FW2TcA",
+   "repeat_count": 5,
+   "rec_votes": 3,
+   "talk_votes": 5,
+   "score": 18,
+   "queries": [
+    "recommended talk youtube",
+    "security talk youtube watch",
+    "talk everyone should watch",
+    "watch this talk"
+   ],
+   "story_titles": [
+    "UK government to monitor email and web use under new laws",
+    "New NSA Leak Shows MITM Attacks Against Major Internet Services",
+    "Decentralized SSL cert verification",
+    "Convergence, distributed, secure strategy replacing certificate authorities",
+    "Moving forward on improving HTTP's security"
+   ],
+   "yt_title": "BlackHat USA 2011: SSL And The Future Of Authenticity",
+   "channel": "Christiaan008",
+   "channel_url": "https://www.youtube.com/@ChRiStIaAn008",
+   "thumbnail": "https://i.ytimg.com/vi/Z7Wl2FW2TcA/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 4,
+   "lane_scores": {
+    "security": 4,
+    "hpc": 1,
+    "craft": 0
+   },
+   "views": 94750,
+   "published": "2011-08-18",
+   "duration": 2881,
+   "yt_url": "https://www.youtube.com/watch?v=Z7Wl2FW2TcA",
+   "id": "v001",
+   "best_text": "The detailed explanation is in this BlackHat talk where I introduced Convergence: http://www.youtube.com/watch?v=Z7Wl2FW2TcA",
+   "best_author": "moxie",
+   "best_story": "Decentralized SSL cert verification",
+   "best_points": 0
+  },
+  {
+   "video_id": "vKmQW_Nkfk8",
+   "repeat_count": 3,
+   "rec_votes": 2,
+   "talk_votes": 3,
+   "score": 11,
+   "queries": [
+    "excellent talk youtube",
+    "watch this talk"
+   ],
+   "story_titles": [
+    "How a Relationship Dies on Facebook",
+    "BioCurious, a hackerspace for bio now open to public",
+    "Instagram"
+   ],
+   "yt_title": "Steve Yegge, \"What Would You Do With Your Own Google?\" - OSCON Data 2011",
+   "channel": "O'Reilly",
+   "channel_url": "https://www.youtube.com/@oreilly",
+   "thumbnail": "https://i.ytimg.com/vi/vKmQW_Nkfk8/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 1,
+    "hpc": 0,
+    "craft": 0
+   },
+   "views": 66073,
+   "published": "2011-07-25",
+   "duration": 905,
+   "yt_url": "https://www.youtube.com/watch?v=vKmQW_Nkfk8",
+   "id": "v002",
+   "best_text": "[video] http://www.youtube.com/watch?v=vKmQW_Nkfk8 (13:50 is the Study Hall)",
+   "best_author": "topherjaynes",
+   "best_story": "Ask HN: What happened to Steve Yegge after 'quitting'",
+   "best_points": 0
+  },
+  {
+   "video_id": "8Z685OF-PS8",
+   "repeat_count": 2,
+   "rec_votes": 2,
+   "talk_votes": 2,
+   "score": 8,
+   "queries": [
+    "excellent talk youtube"
+   ],
+   "story_titles": [
+    "Free Speech and DDOS Attacks",
+    "A father knows best: Vint Cerf re-thinks the Internet in Stanford talk"
+   ],
+   "yt_title": "A New Way to look at Networking",
+   "channel": "Google",
+   "channel_url": "https://www.youtube.com/@Google",
+   "thumbnail": "https://i.ytimg.com/vi/8Z685OF-PS8/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 1,
+    "hpc": 0,
+    "craft": 0
+   },
+   "views": 51942,
+   "published": "2007-07-23",
+   "duration": 4875,
+   "yt_url": "https://www.youtube.com/watch?v=8Z685OF-PS8",
+   "id": "v003",
+   "best_text": "http://www.youtube.com/watch?v=8Z685OF-PS8 http://www.ccnx.org/",
+   "best_author": "ivank",
+   "best_story": "BitTorrent Everything?",
+   "best_points": 0
+  },
+  {
+   "video_id": "3kEfedtQVOY",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 2,
+   "score": 7,
+   "queries": [
+    "brilliant talk youtube",
+    "must watch talk"
+   ],
+   "story_titles": [
+    "Bytecode",
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "28c3: The Science of Insecurity",
+   "channel": "28c3",
+   "channel_url": "https://www.youtube.com/@28c3",
+   "thumbnail": "https://i.ytimg.com/vi/3kEfedtQVOY/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 1,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 42050,
+   "published": "2011-12-28",
+   "duration": 3563,
+   "yt_url": "https://www.youtube.com/watch?v=3kEfedtQVOY",
+   "id": "v004",
+   "best_text": "heh, even parsing file header can be malicious https://www.youtube.com/watch?v=3kEfedtQVOY",
+   "best_author": "rasz_pl",
+   "best_story": "Don't run 'strings' on untrusted files",
+   "best_points": 0
+  },
+  {
+   "video_id": "fwcl17Q0bpk",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 2,
+   "score": 7,
+   "queries": [
+    "brilliant talk youtube",
+    "security talk youtube watch"
+   ],
+   "story_titles": [
+    "\"OpenSSL has exploit mitigation countermeasures to make sure it's exploitable\"",
+    "[dead]"
+   ],
+   "yt_title": "NSA operation ORCHESTRA: Annual Status Report",
+   "channel": "HUP",
+   "channel_url": "https://www.youtube.com/@HUPhu",
+   "thumbnail": "https://i.ytimg.com/vi/fwcl17Q0bpk/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 3,
+   "lane_scores": {
+    "security": 3,
+    "hpc": 0,
+    "craft": 0
+   },
+   "views": 29960,
+   "published": "2014-02-12",
+   "duration": 2766,
+   "yt_url": "https://www.youtube.com/watch?v=fwcl17Q0bpk",
+   "id": "v005",
+   "best_points": 0
+  },
+  {
+   "video_id": "2Ex8EEv-WPs",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 2,
+   "score": 7,
+   "queries": [
+    "security talk youtube watch"
+   ],
+   "story_titles": [
+    "Lisp Web Tales",
+    "Hacking Flask: A Success Story"
+   ],
+   "yt_title": "Yehuda Katz - Why Rails is Hard (Railsberry 2012)",
+   "channel": "applicake",
+   "channel_url": "https://www.youtube.com/@applicake",
+   "thumbnail": "https://i.ytimg.com/vi/2Ex8EEv-WPs/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 1,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 29458,
+   "published": "2012-05-28",
+   "duration": 3191,
+   "yt_url": "https://www.youtube.com/watch?v=2Ex8EEv-WPs",
+   "id": "v006",
+   "best_text": "(highlighted here: http://www.youtube.com/watch?v=2Ex8EEv-WPs )",
+   "best_author": "cllns",
+   "best_story": "You are dangerously bad at cryptography",
+   "best_points": 0
+  },
+  {
+   "video_id": "864FxA3jmHk",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 2,
+   "score": 7,
+   "queries": [
+    "DEF CON talk"
+   ],
+   "story_titles": [
+    "The Inside Story of Tor, the Best Anonymity the Government Ever Built",
+    "Tor exit node operator prosecuted in Austria"
+   ],
+   "yt_title": "Defcon 21 - Safety of Tor Network Look at Network Diversity, Relay Operators & Malicious Relays",
+   "channel": "HackersOnBoard",
+   "channel_url": "https://www.youtube.com/@HackersOnBoard",
+   "thumbnail": "https://i.ytimg.com/vi/864FxA3jmHk/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 7,
+   "lane_scores": {
+    "security": 7,
+    "hpc": 0,
+    "craft": 0
+   },
+   "views": 18637,
+   "published": "2013-11-16",
+   "duration": 2935,
+   "yt_url": "https://www.youtube.com/watch?v=864FxA3jmHk",
+   "id": "v007",
+   "best_points": 0
+  },
+  {
+   "video_id": "yRxDvkKBMTc",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 2,
+   "score": 7,
+   "queries": [
+    "DEF CON talk"
+   ],
+   "story_titles": [
+    "Former Hostgator employee arrested, charged with rooting 2,700 servers",
+    "Spy agencies ban Lenovo PCs on security grounds"
+   ],
+   "yt_title": "DEFCON 20: Hardware Backdooring is Practical",
+   "channel": "Christiaan008",
+   "channel_url": "https://www.youtube.com/@ChRiStIaAn008",
+   "thumbnail": "https://i.ytimg.com/vi/yRxDvkKBMTc/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 2,
+   "lane_scores": {
+    "security": 2,
+    "hpc": 0,
+    "craft": 0
+   },
+   "views": 3800,
+   "published": "2012-11-18",
+   "duration": 2792,
+   "yt_url": "https://www.youtube.com/watch?v=yRxDvkKBMTc",
+   "id": "v008",
+   "best_text": "http://www.youtube.com/watch?v=yRxDvkKBMTc http://www.extremetech.com/computing/133773-rakshasa-the-har...",
+   "best_author": "SkyMarshal",
+   "best_story": "Huawei is giving up the US market",
+   "best_points": 0
+  },
+  {
+   "video_id": "9XaYdCdwiWU",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 6,
+   "queries": [
+    "security talk youtube watch"
+   ],
+   "story_titles": [
+    "Interview: OPSEC with the grugq",
+    "How to Learn Hacking"
+   ],
+   "yt_title": "#HITB2012KUL D1T3 - The Grugq - OPSEC: Because Jail is for wuftpd",
+   "channel": "Hack In The Box Security Conference",
+   "channel_url": "https://www.youtube.com/@hitbsecconf",
+   "thumbnail": "https://i.ytimg.com/vi/9XaYdCdwiWU/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 7,
+   "lane_scores": {
+    "security": 7,
+    "hpc": 0,
+    "craft": 0
+   },
+   "views": 157966,
+   "published": "2012-11-26",
+   "duration": 3865,
+   "yt_url": "https://www.youtube.com/watch?v=9XaYdCdwiWU",
+   "id": "v009",
+   "best_text": "https://www.youtube.com/watch?v=9XaYdCdwiWU grugq talking about opsec",
+   "best_author": "stevengg",
+   "best_story": "SecureDrop",
+   "best_points": 0
+  },
+  {
+   "video_id": "-zRN7XLCRhc",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "talk everyone should watch"
+   ],
+   "story_titles": [
+    "No, ZFS really doesn't need an fsck tool"
+   ],
+   "yt_title": "LISA11 - Fork Yeah! The Rise and Development of illumos",
+   "channel": "USENIX",
+   "channel_url": "https://www.youtube.com/@UsenixOrg",
+   "thumbnail": "https://i.ytimg.com/vi/-zRN7XLCRhc/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 5,
+   "lane_scores": {
+    "security": 5,
+    "hpc": 4,
+    "craft": 0
+   },
+   "views": 310075,
+   "published": "2011-12-15",
+   "duration": 3843,
+   "yt_url": "https://www.youtube.com/watch?v=-zRN7XLCRhc",
+   "id": "v010"
+  },
+  {
+   "video_id": "5cWck_xcH64",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "DEF CON talk"
+   ],
+   "story_titles": [
+    "Hacker taps into baby monitor, shouts at sleeping infant"
+   ],
+   "yt_title": "Defcon 20 - Dan Tentler - Drinking from the caffeine firehose we know as shodan",
+   "channel": "vissago",
+   "channel_url": "https://www.youtube.com/@vissago",
+   "thumbnail": "https://i.ytimg.com/vi/5cWck_xcH64/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 1,
+    "hpc": 1,
+    "craft": 0
+   },
+   "views": 181616,
+   "published": "2012-08-21",
+   "duration": 1472,
+   "yt_url": "https://www.youtube.com/watch?v=5cWck_xcH64",
+   "id": "v011",
+   "best_text": "For those who havn't seen Dan's talks before: https://www.youtube.com/watch?v=5cWck_xcH64",
+   "best_author": "hyperion2010",
+   "best_story": "VNC Roulette",
+   "best_points": 0
+  },
+  {
+   "video_id": "nuruzFqMgIw",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "blackhat presentation"
+   ],
+   "story_titles": [
+    "Phison USB Custom Firmware and Existing Firmware Patches"
+   ],
+   "yt_title": "BadUSB - On Accessories that Turn Evil by Karsten Nohl + Jakob Lell",
+   "channel": "Black Hat",
+   "channel_url": "https://www.youtube.com/@BlackHatOfficialYT",
+   "thumbnail": "https://i.ytimg.com/vi/nuruzFqMgIw/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 5,
+   "lane_scores": {
+    "security": 5,
+    "hpc": 0,
+    "craft": 0
+   },
+   "views": 146718,
+   "published": "2014-08-11",
+   "duration": 2671,
+   "yt_url": "https://www.youtube.com/watch?v=nuruzFqMgIw",
+   "id": "v012",
+   "best_text": "And it can get much, much worse than plain old viruses too: https://www.youtube.com/watch?v=nuruzFqMgIw",
+   "best_author": "vanderZwan",
+   "best_story": "Dead Drops: what to do if you see a USB stick sticking out of a wall",
+   "best_points": 0
+  },
+  {
+   "video_id": "0Z4aF-qiziM",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "DEF CON talk"
+   ],
+   "story_titles": [
+    "Depackaging the Nintendo 3DS CPU"
+   ],
+   "yt_title": "Defcon 21 - Decapping Chips The Strike Easy Hard Way",
+   "channel": "HackersOnBoard",
+   "channel_url": "https://www.youtube.com/@HackersOnBoard",
+   "thumbnail": "https://i.ytimg.com/vi/0Z4aF-qiziM/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 6,
+   "lane_scores": {
+    "security": 6,
+    "hpc": 1,
+    "craft": 0
+   },
+   "views": 68831,
+   "published": "2013-11-16",
+   "duration": 6087,
+   "yt_url": "https://www.youtube.com/watch?v=0Z4aF-qiziM",
+   "id": "v013",
+   "best_points": 0
+  },
+  {
+   "video_id": "rOzrJjdZDRQ",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "excellent talk youtube"
+   ],
+   "story_titles": [
+    "The Lives of Elevators (2008)"
+   ],
+   "yt_title": "[HOPE X] Elevator Hacking: From the Pit to the Penthouse",
+   "channel": "themarimbaincident",
+   "channel_url": "https://www.youtube.com/@themarimbaincident",
+   "thumbnail": "https://i.ytimg.com/vi/rOzrJjdZDRQ/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 1,
+    "hpc": 0,
+    "craft": 0
+   },
+   "views": 40440,
+   "published": "2014-07-23",
+   "duration": 6953,
+   "yt_url": "https://www.youtube.com/watch?v=rOzrJjdZDRQ",
+   "id": "v014",
+   "best_points": 0
+  },
+  {
+   "video_id": "idICUSiGcqo",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "security talk youtube watch"
+   ],
+   "story_titles": [
+    "I flew on a plane without going through security. It was amazing and no one died"
+   ],
+   "yt_title": "Body Scanner Demonstration (German w/ English Subtitles).mp4",
+   "channel": "curtisekstrom",
+   "channel_url": "https://www.youtube.com/@curtisekstrom",
+   "thumbnail": "https://i.ytimg.com/vi/idICUSiGcqo/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 1,
+    "hpc": 0,
+    "craft": 0
+   },
+   "views": 37807,
+   "published": "2010-01-24",
+   "duration": 595,
+   "yt_url": "https://www.youtube.com/watch?v=idICUSiGcqo",
+   "id": "v015",
+   "best_text": "It's subtitled in English here: http://www.youtube.com/watch?v=idICUSiGcqo",
+   "best_author": "kristofferR",
+   "best_story": "Viral Video About Body Scanners",
+   "best_points": 0
+  },
+  {
+   "video_id": "-2ZTmuX3cog",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "excellent talk youtube"
+   ],
+   "story_titles": [
+    "Justin.tv ending archiving, deleting all archived videos after June 14"
+   ],
+   "yt_title": "ARCHIVE TEAM: A Distributed Preservation of Service Attack",
+   "channel": "textfilesdotcom",
+   "channel_url": "https://www.youtube.com/@textfilesdotcom",
+   "thumbnail": "https://i.ytimg.com/vi/-2ZTmuX3cog/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 1,
+    "hpc": 1,
+    "craft": 0
+   },
+   "views": 29486,
+   "published": "2011-09-05",
+   "duration": 2658,
+   "yt_url": "https://www.youtube.com/watch?v=-2ZTmuX3cog",
+   "id": "v016"
+  },
+  {
+   "video_id": "4QG1A9FuNkw",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "DEF CON talk"
+   ],
+   "story_titles": [
+    "Tyupkin: Manipulating ATM Machines with Malware"
+   ],
+   "yt_title": "DEFCON 18: Jackpotting Automated Teller Machines Redux  1/3",
+   "channel": "Christiaan008",
+   "channel_url": "https://www.youtube.com/@ChRiStIaAn008",
+   "thumbnail": "https://i.ytimg.com/vi/4QG1A9FuNkw/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 1,
+    "hpc": 0,
+    "craft": 0
+   },
+   "views": 21322,
+   "published": "2010-10-06",
+   "duration": 897,
+   "yt_url": "https://www.youtube.com/watch?v=4QG1A9FuNkw",
+   "id": "v017",
+   "best_text": "part 1 of 3 - https://www.youtube.com/watch?v=4QG1A9FuNkw",
+   "best_author": "amckenna",
+   "best_story": "Tyupkin: Manipulating ATM Machines with Malware",
+   "best_points": 0
+  },
+  {
+   "video_id": "l5JBMyxvuH8",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "DEF CON talk"
+   ],
+   "story_titles": [
+    "De-Anonymizing alt.anonymous.messages [pdf]"
+   ],
+   "yt_title": "DEF CON 21 - Tom Ritter - De Anonymizing Alt Anonymous Messages",
+   "channel": "DEFCONConference",
+   "channel_url": "https://www.youtube.com/@DEFCONConference",
+   "thumbnail": "https://i.ytimg.com/vi/l5JBMyxvuH8/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 5,
+   "lane_scores": {
+    "security": 5,
+    "hpc": 0,
+    "craft": 0
+   },
+   "views": 3345,
+   "published": "2013-12-23",
+   "duration": 2671,
+   "yt_url": "https://www.youtube.com/watch?v=l5JBMyxvuH8",
+   "id": "v018",
+   "best_text": "I just looked at a few slides but it looks like the transcript of this awesome talk at defcon: https://www.youtube.com/watch?v=l5JBMyxvuH8 The big wow was that a lot of people seem to use those complicated and extreme ways of messaging.",
+   "best_author": "baby",
+   "best_story": "De-Anonymizing alt.anonymous.messages [pdf]",
+   "best_points": 0
+  },
+  {
+   "video_id": "ncpm6vRi9F4",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "DEF CON talk"
+   ],
+   "story_titles": [
+    "Knight Capital Says Trading Glitch Cost It $440 Million"
+   ],
+   "yt_title": "DEFCON 19: Security When Nano Seconds Count (w speaker)",
+   "channel": "Christiaan008",
+   "channel_url": "https://www.youtube.com/@ChRiStIaAn008",
+   "thumbnail": "https://i.ytimg.com/vi/ncpm6vRi9F4/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 1,
+    "hpc": 0,
+    "craft": 0
+   },
+   "views": 3338,
+   "published": "2012-02-12",
+   "duration": 2681,
+   "yt_url": "https://www.youtube.com/watch?v=ncpm6vRi9F4",
+   "id": "v019",
+   "best_text": "I'm not sure, if it was a technical failure, but here is a great talk from Def Con 19 about security and high trading systems https://www.youtube.com/watch?v=ncpm6vRi9F4",
+   "best_author": "jagermo",
+   "best_story": "Knight Capital Says Trading Glitch Cost It $440 Million",
+   "best_points": 0
+  },
+  {
+   "video_id": "dlSBQ5b6Pdw",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "security talk youtube watch"
+   ],
+   "story_titles": [
+    "Diversity of thought and tech conferences"
+   ],
+   "yt_title": "DEFCON 19: Battery Firmware Hacking ( w speaker)",
+   "channel": "Christiaan008",
+   "channel_url": "https://www.youtube.com/@ChRiStIaAn008",
+   "thumbnail": "https://i.ytimg.com/vi/dlSBQ5b6Pdw/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 1,
+    "hpc": 0,
+    "craft": 0
+   },
+   "views": 2717,
+   "published": "2012-02-10",
+   "duration": 2945,
+   "yt_url": "https://www.youtube.com/watch?v=dlSBQ5b6Pdw",
+   "id": "v020",
+   "best_text": "http://www.youtube.com/watch?v=dlSBQ5b6Pdw\u200e # hard drives Also recently someone did run linux in its hard drive controller (which is a set of arm cores, ~v9 and m3) HaD intro : http://hackaday.com/2013/08/02/sprite_tm-ohm2013-talk-hackin...",
+   "best_author": "agumonkey",
+   "best_story": "The second operating system hiding in every mobile phone",
+   "best_points": 0
+  },
+  {
+   "video_id": "rJroherlZVo",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "watch this talk"
+   ],
+   "story_titles": [
+    "RTFM 0day in iOS apps"
+   ],
+   "yt_title": "pg11 ios url schemes omg guillaume k ross",
+   "channel": "Adrian Crenshaw",
+   "channel_url": "https://www.youtube.com/@irongeek",
+   "thumbnail": "https://i.ytimg.com/vi/rJroherlZVo/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 1,
+    "hpc": 0,
+    "craft": 0
+   },
+   "views": 2355,
+   "published": "2014-08-08",
+   "duration": 1777,
+   "yt_url": "https://www.youtube.com/watch?v=rJroherlZVo",
+   "id": "v021",
+   "best_text": "You'll probably want to watch this on Youtube: https://www.youtube.com/watch?v=rJroherlZVo",
+   "best_author": "fullpint",
+   "best_story": "RTFM 0day in iOS apps",
+   "best_points": 0
+  },
+  {
+   "video_id": "2tPPD0MRX7I",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "DEF CON talk"
+   ],
+   "story_titles": [
+    "Elite Hacker Barnaby Jack 'overdosed on drugs'"
+   ],
+   "yt_title": "DEF CON 21 Presentation By Mudge - Unexpected Stories From a Hacker Inside the Government",
+   "channel": "HackersOnBoard",
+   "channel_url": "https://www.youtube.com/@HackersOnBoard",
+   "thumbnail": "https://i.ytimg.com/vi/2tPPD0MRX7I/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 8,
+   "lane_scores": {
+    "security": 8,
+    "hpc": 0,
+    "craft": 0
+   },
+   "views": 2041,
+   "published": "2013-09-13",
+   "duration": 3129,
+   "yt_url": "https://www.youtube.com/watch?v=2tPPD0MRX7I",
+   "id": "v022",
+   "best_text": "For those interested: http://www.youtube.com/watch?v=2tPPD0MRX7I",
+   "best_author": "drewblaisdell",
+   "best_story": "Elite Hacker Barnaby Jack 'overdosed on drugs'",
+   "best_points": 0
+  },
+  {
+   "video_id": "KRVRlhrLKkI",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "security talk youtube watch"
+   ],
+   "story_titles": [
+    "Limiting passwords to 12 characters is \"secure enough\""
+   ],
+   "yt_title": "RSA Conference 2011 - Rethinking Passwords - William Cheswick",
+   "channel": "RSAC Cybersecurity",
+   "channel_url": "https://www.youtube.com/@OneRSAC",
+   "thumbnail": "https://i.ytimg.com/vi/KRVRlhrLKkI/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 1,
+    "hpc": 0,
+    "craft": 0
+   },
+   "views": 1339,
+   "published": "2011-09-01",
+   "duration": 1300,
+   "yt_url": "https://www.youtube.com/watch?v=KRVRlhrLKkI",
+   "id": "v023",
+   "best_text": "Bill Cheswick, of the \"Firewalls and Internet Security; Repelling the Wily Hacker\" fame, gives a great talk called \"Rethinking Passwords\" calling for a better solution: http://www.youtube.com/watch?v=KRVRlhrLKkI [video, 22 min] http://web.cheswick.com/ches/talks/rethink.pdf [slides]",
+   "best_author": "atsaloli",
+   "best_story": "Limiting passwords to 12 characters is \"secure enough\"",
+   "best_points": 0
+  },
+  {
+   "video_id": "KEJGqNf2rgk",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "excellent talk youtube"
+   ],
+   "story_titles": [
+    "SQLCipher \u2013 Full Database Encryption for SQLite"
+   ],
+   "yt_title": "Nathan Freitas: The Great Firewall Inverts",
+   "channel": "Berkman Klein Center for Internet & Society",
+   "channel_url": "https://www.youtube.com/@BKCHarvard",
+   "thumbnail": "https://i.ytimg.com/vi/KEJGqNf2rgk/hqdefault.jpg",
+   "lane": "security",
+   "lane_score": 3,
+   "lane_scores": {
+    "security": 3,
+    "hpc": 1,
+    "craft": 0
+   },
+   "views": 938,
+   "published": "2015-01-15",
+   "duration": 4473,
+   "yt_url": "https://www.youtube.com/watch?v=KEJGqNf2rgk",
+   "id": "v024",
+   "best_text": "Came from watching https://www.youtube.com/watch?v=KEJGqNf2rgk (excellent talk)",
+   "best_author": "jonbaer",
+   "best_story": "SQLCipher \u2013 Full Database Encryption for SQLite",
+   "best_points": 0
+  },
+  {
+   "video_id": "HxaD_trXwRE",
+   "repeat_count": 4,
+   "rec_votes": 2,
+   "talk_votes": 4,
+   "score": 14,
+   "queries": [
+    "brilliant talk youtube",
+    "compiler talk youtube",
+    "excellent talk youtube",
+    "must watch talk"
+   ],
+   "story_titles": [
+    "Ask HN: How to start programming language design?",
+    "Concurrency is not Parallelism. Rob Pike at Waza 2012 [video]",
+    "Parsing huge XML files with Go",
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "Lexical Scanning in Go - Rob Pike",
+   "channel": "GoogleFOSSSydney",
+   "channel_url": "https://www.youtube.com/@GoogleFOSSSydney",
+   "thumbnail": "https://i.ytimg.com/vi/HxaD_trXwRE/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 4,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 4,
+    "craft": 2
+   },
+   "views": 161943,
+   "published": "2011-08-30",
+   "duration": 3077,
+   "yt_url": "https://www.youtube.com/watch?v=HxaD_trXwRE",
+   "id": "v025",
+   "best_points": 0
+  },
+  {
+   "video_id": "NWSZ4c9yqW8",
+   "repeat_count": 4,
+   "rec_votes": 2,
+   "talk_votes": 4,
+   "score": 14,
+   "queries": [
+    "compiler talk youtube",
+    "profiling talk youtube",
+    "watch this talk"
+   ],
+   "story_titles": [
+    "Joel Spolsky: Can your programming language do this?",
+    "Speed memory access by arranging data to take advantage of CPU caching",
+    "Teenage Haskell",
+    "Guy Steele on Functional Code for Parallel Execution (2009) [video]"
+   ],
+   "yt_title": "Simon Peyton Jones: Data Parallel Haskell",
+   "channel": "nuACM",
+   "channel_url": "https://www.youtube.com/@nuACM",
+   "thumbnail": "https://i.ytimg.com/vi/NWSZ4c9yqW8/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 10,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 10,
+    "craft": 3
+   },
+   "views": 27693,
+   "published": "2010-04-23",
+   "duration": 4796,
+   "yt_url": "https://www.youtube.com/watch?v=NWSZ4c9yqW8",
+   "id": "v026",
+   "best_text": "FWIW you can link to a specific time in a YouTube video like this: http://www.youtube.com/watch?v=NWSZ4c9yqW8#t=3m0s",
+   "best_author": "chrisdone",
+   "best_story": "The Rise of \"Worse is Better\"",
+   "best_points": 0
+  },
+  {
+   "video_id": "UOWexFaRylM",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 2,
+   "score": 7,
+   "queries": [
+    "DEF CON talk",
+    "security talk youtube watch"
+   ],
+   "story_titles": [
+    "Masscan: Scan the entire Internet in under 5 minutes",
+    "Robdns \u2013 A fast DNS server based on C10M principles"
+   ],
+   "yt_title": "Massscanning the Internet - Defcon 22 (2014)",
+   "channel": "vissago",
+   "channel_url": "https://www.youtube.com/@vissago",
+   "thumbnail": "https://i.ytimg.com/vi/UOWexFaRylM/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 1,
+    "craft": 0
+   },
+   "views": 109098,
+   "published": "2014-10-01",
+   "duration": 2927,
+   "yt_url": "https://www.youtube.com/watch?v=UOWexFaRylM",
+   "id": "v027",
+   "best_text": "Scanning the internet isn't that slow https://www.youtube.com/watch?v=UOWexFaRylM",
+   "best_author": "tacticus",
+   "best_story": "Looking Forward: Support for Secure Shell",
+   "best_points": 0
+  },
+  {
+   "video_id": "V2aq5M3Q76U",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 2,
+   "score": 7,
+   "queries": [
+    "compiler talk youtube",
+    "favorite conference talk"
+   ],
+   "story_titles": [
+    "Booting Linux using UEFI can brick Samsung laptops",
+    "More in the series of bizarre UEFI bugs"
+   ],
+   "yt_title": "EFI and Linux: the future is here, and it's awful - Matthew Garrett",
+   "channel": "Linux.conf.au 2012 -- Ballarat, Australia",
+   "channel_url": "https://www.youtube.com/@linuxconfau2012",
+   "thumbnail": "https://i.ytimg.com/vi/V2aq5M3Q76U/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 4,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 4,
+    "craft": 1
+   },
+   "views": 76944,
+   "published": "2012-01-19",
+   "duration": 3190,
+   "yt_url": "https://www.youtube.com/watch?v=V2aq5M3Q76U",
+   "id": "v028",
+   "best_text": "Here is a talk from the Linux EFI implementer: https://www.youtube.com/watch?v=V2aq5M3Q76U",
+   "best_author": "cbs",
+   "best_story": "Torvalds clarifies Linux's Windows 8 Secure Boot position",
+   "best_points": 0
+  },
+  {
+   "video_id": "5XDTQLa3NjE",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 2,
+   "score": 7,
+   "queries": [
+    "excellent talk youtube",
+    "security talk youtube watch"
+   ],
+   "story_titles": [
+    "Is an open-source pacemaker safer than closed-source?",
+    "Body Hacking: Thoughts Regarding My Magnet Implant"
+   ],
+   "yt_title": "Keynote - Karen Sandler",
+   "channel": "Linux.conf.au 2012 -- Ballarat, Australia",
+   "channel_url": "https://www.youtube.com/@linuxconfau2012",
+   "thumbnail": "https://i.ytimg.com/vi/5XDTQLa3NjE/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 4,
+   "lane_scores": {
+    "security": 1,
+    "hpc": 4,
+    "craft": 0
+   },
+   "views": 20136,
+   "published": "2012-01-19",
+   "duration": 3291,
+   "yt_url": "https://www.youtube.com/watch?v=5XDTQLa3NjE",
+   "id": "v029",
+   "best_text": "Related: Karen Sandler's LC2012 keynote, which discusses the challenges of finding anything out about life-sustaining medical technology: https://www.youtube.com/watch?v=5XDTQLa3NjE",
+   "best_author": "rodgerd",
+   "best_story": "CVE-2015-3459 \u2013 Hospira Lifecare PCA Infusion Pump",
+   "best_points": 0
+  },
+  {
+   "video_id": "sq0MX3fHkro",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 2,
+   "score": 7,
+   "queries": [
+    "hardware hacking talk",
+    "watch this talk"
+   ],
+   "story_titles": [
+    "Sane Concurrency with Go",
+    "Luje 0.1 \u2013 a pure Lua JVM"
+   ],
+   "yt_title": "Engineering Concurrent Library Components",
+   "channel": "ChariotSolutions",
+   "channel_url": "https://www.youtube.com/@ChariotSolutions",
+   "thumbnail": "https://i.ytimg.com/vi/sq0MX3fHkro/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 3,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 3,
+    "craft": 2
+   },
+   "views": 8680,
+   "published": "2013-04-30",
+   "duration": 3647,
+   "yt_url": "https://www.youtube.com/watch?v=sq0MX3fHkro",
+   "id": "v030",
+   "best_text": "The talk Engineering Concurrent Library Components , by Doug Lea, is one of the best overviews of the issues surrounding the design and implementation of low-level concurrency building blocks: https://www.youtube.com/watch?v=sq0MX3fHkro",
+   "best_author": "pron",
+   "best_story": "Locking in WebKit",
+   "best_points": 0
+  },
+  {
+   "video_id": "Vt8jyPqsmxE",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 2,
+   "score": 7,
+   "queries": [
+    "brilliant talk youtube",
+    "watch this talk"
+   ],
+   "story_titles": [
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "Extracting Energy from the Turing Tarpit",
+   "channel": "Association for Computing Machinery (ACM)",
+   "channel_url": "https://www.youtube.com/@TheOfficialACM",
+   "thumbnail": "https://i.ytimg.com/vi/Vt8jyPqsmxE/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 4,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 4,
+    "craft": 3
+   },
+   "views": 4311,
+   "published": "2013-01-18",
+   "duration": 1974,
+   "yt_url": "https://www.youtube.com/watch?v=Vt8jyPqsmxE",
+   "id": "v031",
+   "best_text": "The demo itself is a video of this: https://youtu.be/Vt8jyPqsmxE?t=750 which is a simulation done in the Frank system in the STEPS project.",
+   "best_author": "ohshima",
+   "best_story": "Alan Kay's talk at UCLA \u2013 Feb 2024 [video]",
+   "best_points": 0
+  },
+  {
+   "video_id": "f6kdp27TYZs",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "excellent talk youtube"
+   ],
+   "story_titles": [
+    "Go concurrency patterns"
+   ],
+   "yt_title": "Google I/O 2012 - Go Concurrency Patterns",
+   "channel": "Google for Developers",
+   "channel_url": "https://www.youtube.com/@GoogleDevelopers",
+   "thumbnail": "https://i.ytimg.com/vi/f6kdp27TYZs/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 4,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 4,
+    "craft": 0
+   },
+   "views": 893943,
+   "published": "2012-07-02",
+   "duration": 3087,
+   "yt_url": "https://www.youtube.com/watch?v=f6kdp27TYZs",
+   "id": "v032",
+   "best_text": "Rob Pike shows some of go\u2019s strengths in this video: https://www.youtube.com/watch?v=f6kdp27TYZs",
+   "best_author": "jmulho",
+   "best_story": "An Introduction to Programming in Go",
+   "best_points": 0
+  },
+  {
+   "video_id": "rX0ItVEVjHc",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "C++ conference talk"
+   ],
+   "story_titles": [
+    "How HHVM Uses Modern C++ for Fun and Profit (2014) [video]"
+   ],
+   "yt_title": "CppCon 2014: Mike Acton \"Data-Oriented Design and C++\"",
+   "channel": "CppCon",
+   "channel_url": "https://www.youtube.com/@CppCon",
+   "thumbnail": "https://i.ytimg.com/vi/rX0ItVEVjHc/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 6,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 6,
+    "craft": 0
+   },
+   "views": 862219,
+   "published": "2014-09-29",
+   "duration": 5266,
+   "yt_url": "https://www.youtube.com/watch?v=rX0ItVEVjHc",
+   "id": "v033",
+   "best_text": "Mike Acton gave a great presentation on this kind of optimization at CppCon2014: https://www.youtube.com/watch?v=rX0ItVEVjHc",
+   "best_author": "mrob",
+   "best_story": "Ask HN: Is C/C++ really faster than Python?",
+   "best_points": 0
+  },
+  {
+   "video_id": "i6Fr65PFqfk",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "brilliant talk youtube"
+   ],
+   "story_titles": [
+    "Django plugins you shouldn't start without"
+   ],
+   "yt_title": "DjangoCon 2008 Keynote: Cal Henderson",
+   "channel": "Google for Developers",
+   "channel_url": "https://www.youtube.com/@GoogleDevelopers",
+   "thumbnail": "https://i.ytimg.com/vi/i6Fr65PFqfk/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 1,
+    "craft": 0
+   },
+   "views": 125282,
+   "published": "2008-09-15",
+   "duration": 3763,
+   "yt_url": "https://www.youtube.com/watch?v=i6Fr65PFqfk",
+   "id": "v034",
+   "best_points": 0
+  },
+  {
+   "video_id": "6mTbuzafcII",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "recommended talk youtube"
+   ],
+   "story_titles": [
+    "Transducers for JavaScript"
+   ],
+   "yt_title": "\"Transducers\" by Rich Hickey",
+   "channel": "Strange Loop Conference",
+   "channel_url": "https://www.youtube.com/@StrangeLoopConf",
+   "thumbnail": "https://i.ytimg.com/vi/6mTbuzafcII/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 4,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 4,
+    "craft": 0
+   },
+   "views": 115586,
+   "published": "2014-09-19",
+   "duration": 2700,
+   "yt_url": "https://www.youtube.com/watch?v=6mTbuzafcII",
+   "id": "v035",
+   "best_points": 0
+  },
+  {
+   "video_id": "bx3KuE7UjGA",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "brilliant talk youtube"
+   ],
+   "story_titles": [
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "MINIX 3: a Modular, Self-Healing POSIX-compatible Operating System",
+   "channel": "FOSDEM",
+   "channel_url": "https://www.youtube.com/@fosdemtalks",
+   "thumbnail": "https://i.ytimg.com/vi/bx3KuE7UjGA/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 4,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 4,
+    "craft": 0
+   },
+   "views": 89665,
+   "published": "2010-02-14",
+   "duration": 3379,
+   "yt_url": "https://www.youtube.com/watch?v=bx3KuE7UjGA",
+   "id": "v036",
+   "best_text": "By Andrew Tanenbaum =^.~= https://www.youtube.com/watch?v=bx3KuE7UjGA",
+   "best_author": "thiagoandrade",
+   "best_story": "Ask HN: What's the best technical talk you've heard?",
+   "best_points": 0
+  },
+  {
+   "video_id": "YbZ3zDzDnrw",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "recommended talk youtube"
+   ],
+   "story_titles": [
+    "Raft: Understandable Distributed Consensus"
+   ],
+   "yt_title": "Raft lecture (Raft user study)",
+   "channel": "Diego Ongaro",
+   "channel_url": "https://www.youtube.com/@ongardie",
+   "thumbnail": "https://i.ytimg.com/vi/YbZ3zDzDnrw/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 6,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 6,
+    "craft": 0
+   },
+   "views": 86605,
+   "published": "2013-08-14",
+   "duration": 3497,
+   "yt_url": "https://www.youtube.com/watch?v=YbZ3zDzDnrw",
+   "id": "v037",
+   "best_text": "Lecture here: https://www.youtube.com/watch?v=YbZ3zDzDnrw",
+   "best_author": "amelius",
+   "best_story": "Raft Consensus Algorithm",
+   "best_points": 0
+  },
+  {
+   "video_id": "4moyKUHApq4",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "watch this talk"
+   ],
+   "story_titles": [
+    "Edward C++Hands"
+   ],
+   "yt_title": "A Possible Future of Software Development",
+   "channel": "Google TechTalks",
+   "channel_url": "https://www.youtube.com/@GoogleTechTalks",
+   "thumbnail": "https://i.ytimg.com/vi/4moyKUHApq4/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 1,
+    "craft": 1
+   },
+   "views": 81835,
+   "published": "2008-05-20",
+   "duration": 3693,
+   "yt_url": "https://www.youtube.com/watch?v=4moyKUHApq4",
+   "id": "v038",
+   "best_text": "Here's one : A Possible Future of Software Development : www.youtube.com/watch?v=4moyKUHApq4\u200e",
+   "best_author": "agumonkey",
+   "best_story": "C++ \u2013 From goto to std::transform",
+   "best_points": 0
+  },
+  {
+   "video_id": "FhL5VO2NStU",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "excellent talk youtube"
+   ],
+   "story_titles": [
+    "Dry-run experiments verify key aspect of Sandia nuclear fusion concept"
+   ],
+   "yt_title": "Should Google Go Nuclear? Clean, cheap, nuclear power...",
+   "channel": "Google TechTalks",
+   "channel_url": "https://www.youtube.com/@GoogleTechTalks",
+   "thumbnail": "https://i.ytimg.com/vi/FhL5VO2NStU/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 1,
+    "craft": 0
+   },
+   "views": 74432,
+   "published": "2007-10-08",
+   "duration": 5563,
+   "yt_url": "https://www.youtube.com/watch?v=FhL5VO2NStU",
+   "id": "v039",
+   "best_text": "Robert Bussard (RIP): https://www.youtube.com/watch?v=FhL5VO2NStU He claimed that it would only take about $200M of engineering development to become viable.",
+   "best_author": "carapace",
+   "best_story": "Germany to Rethink Nuclear Shutdown as Energy Crisis Deepens",
+   "best_points": 0
+  },
+  {
+   "video_id": "G_eYTctGZw8",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "excellent talk youtube"
+   ],
+   "story_titles": [
+    "Learn Prolog Now"
+   ],
+   "yt_title": "\"Production Prolog\" by Michael Hendricks",
+   "channel": "Strange Loop Conference",
+   "channel_url": "https://www.youtube.com/@StrangeLoopConf",
+   "thumbnail": "https://i.ytimg.com/vi/G_eYTctGZw8/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 4,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 4,
+    "craft": 0
+   },
+   "views": 57612,
+   "published": "2014-09-21",
+   "duration": 2397,
+   "yt_url": "https://www.youtube.com/watch?v=G_eYTctGZw8",
+   "id": "v040",
+   "best_text": "The golog author has a great presentation on using prolog in production.[1] [1] https://www.youtube.com/watch?v=G_eYTctGZw8",
+   "best_author": "BenDoan",
+   "best_story": "Prolog interpreter in Go",
+   "best_points": 0
+  },
+  {
+   "video_id": "G0eBDWigORY",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "watch this talk"
+   ],
+   "story_titles": [
+    "Google's Go Programming Language Grows Up: Now What?"
+   ],
+   "yt_title": "Erlang in production: \"I wish I'd known that when I started\" - Bernard Duggan",
+   "channel": "Linux.conf.au 2012 -- Ballarat, Australia",
+   "channel_url": "https://www.youtube.com/@linuxconfau2012",
+   "thumbnail": "https://i.ytimg.com/vi/G0eBDWigORY/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 6,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 6,
+    "craft": 1
+   },
+   "views": 36728,
+   "published": "2012-01-19",
+   "duration": 2563,
+   "yt_url": "https://www.youtube.com/watch?v=G0eBDWigORY",
+   "id": "v041",
+   "best_text": "Erlang is nice, but has its own not-so-simple issues: http://www.youtube.com/watch?v=G0eBDWigORY Interestingly, many things in Go's design that might seem 'deficiencies' from the point of view of Erlang means most of those problems don't apply to Go at all.",
+   "best_author": "luriel",
+   "best_story": "Why I went from Python to Go (and not node.js)",
+   "best_points": 0
+  },
+  {
+   "video_id": "BFnhhPehpKw",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "talk everyone should watch"
+   ],
+   "story_titles": [
+    "Getting Lazy with C++"
+   ],
+   "yt_title": "C++17: I See a Monad in Your Future",
+   "channel": "NWCPP - Northwest C++ Users Group",
+   "channel_url": "https://www.youtube.com/@NWCPP",
+   "thumbnail": "https://i.ytimg.com/vi/BFnhhPehpKw/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 3,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 3,
+    "craft": 0
+   },
+   "views": 18206,
+   "published": "2014-03-20",
+   "duration": 4858,
+   "yt_url": "https://www.youtube.com/watch?v=BFnhhPehpKw",
+   "id": "v042"
+  },
+  {
+   "video_id": "Op52liUjvSk",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "watch this talk"
+   ],
+   "story_titles": [
+    "Optifine dev on performance problems in Minecraft 1.8"
+   ],
+   "yt_title": "The Joys of Static Memory Javascript",
+   "channel": "Colt McAnlis",
+   "channel_url": "https://www.youtube.com/@ColtMcAnlis",
+   "thumbnail": "https://i.ytimg.com/vi/Op52liUjvSk/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 3,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 3,
+    "craft": 1
+   },
+   "views": 10919,
+   "published": "2013-10-31",
+   "duration": 2374,
+   "yt_url": "https://www.youtube.com/watch?v=Op52liUjvSk",
+   "id": "v043"
+  },
+  {
+   "video_id": "ML__e_ZcWiQ",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "favorite conference talk"
+   ],
+   "story_titles": [
+    "Build your very own UAV drone spy plane"
+   ],
+   "yt_title": "Rescuing Joe - Andrew Tridgell",
+   "channel": "Linux.conf.au 2012 -- Ballarat, Australia",
+   "channel_url": "https://www.youtube.com/@linuxconfau2012",
+   "thumbnail": "https://i.ytimg.com/vi/ML__e_ZcWiQ/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 4,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 4,
+    "craft": 0
+   },
+   "views": 10010,
+   "published": "2012-01-20",
+   "duration": 3127,
+   "yt_url": "https://www.youtube.com/watch?v=ML__e_ZcWiQ",
+   "id": "v044",
+   "best_text": "If you are interested in this, I strongly encourage you to watch Andrew Tridgell's talk from linux.conf.au 2012: https://www.youtube.com/watch?v=ML__e_ZcWiQ .",
+   "best_author": "pserwylo",
+   "best_story": "Build your very own UAV drone spy plane",
+   "best_points": 0
+  },
+  {
+   "video_id": "vYh27zz9530",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "recommended talk youtube"
+   ],
+   "story_titles": [
+    "LiquidHaskell: Refinement Types via SMT and Predicate Abstraction"
+   ],
+   "yt_title": "Ranjit Jhala - Liquid Haskell",
+   "channel": "Boston Haskell",
+   "channel_url": "https://www.youtube.com/@BostonHaskell",
+   "thumbnail": "https://i.ytimg.com/vi/vYh27zz9530/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 4,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 4,
+    "craft": 0
+   },
+   "views": 5278,
+   "published": "2014-11-24",
+   "duration": 6046,
+   "yt_url": "https://www.youtube.com/watch?v=vYh27zz9530",
+   "id": "v045",
+   "best_points": 0
+  },
+  {
+   "video_id": "a4iFJuNBx7U",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "compiler talk youtube"
+   ],
+   "story_titles": [
+    "Hourglass Interfaces for C++ APIs"
+   ],
+   "yt_title": "CppComponents- A Modern Portable C++11 Component System",
+   "channel": "CppNow",
+   "channel_url": "https://www.youtube.com/@CppNow",
+   "thumbnail": "https://i.ytimg.com/vi/a4iFJuNBx7U/hqdefault.jpg",
+   "lane": "hpc",
+   "lane_score": 2,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 2,
+    "craft": 0
+   },
+   "views": 1488,
+   "published": "2014-09-01",
+   "duration": 5083,
+   "yt_url": "https://www.youtube.com/watch?v=a4iFJuNBx7U",
+   "id": "v046",
+   "best_text": "and my C++Now talk at http://www.youtube.com/watch?v=a4iFJuNBx7U&list=UU5e__RG9K3c...",
+   "best_author": "jbandela1",
+   "best_story": "Hourglass Interfaces for C++ APIs",
+   "best_points": 0
+  },
+  {
+   "video_id": "4XpnKHJAok8",
+   "repeat_count": 7,
+   "rec_votes": 3,
+   "talk_votes": 7,
+   "score": 24,
+   "queries": [
+    "brilliant talk youtube",
+    "kernel development talk",
+    "must watch talk",
+    "security talk youtube watch",
+    "talk everyone should watch",
+    "watch this talk"
+   ],
+   "story_titles": [
+    "How Richard Stallman Browses the Internet",
+    "Discussion of Vim and Its Implementation",
+    "Ask HN: Going back to programming",
+    "Git: Bram Cohen vs Linus Torvalds",
+    "Git"
+   ],
+   "yt_title": "Tech Talk: Linus Torvalds on git",
+   "channel": "Google",
+   "channel_url": "https://www.youtube.com/@Google",
+   "thumbnail": "https://i.ytimg.com/vi/4XpnKHJAok8/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 3,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 3
+   },
+   "views": 4079510,
+   "published": "2007-05-14",
+   "duration": 4215,
+   "yt_url": "https://www.youtube.com/watch?v=4XpnKHJAok8",
+   "id": "v047",
+   "best_text": "A video of this wonderful Google tech talk is available on YouTube: https://www.youtube.com/watch?v=4XpnKHJAok8",
+   "best_author": "chmaynard",
+   "best_story": "GitHub Raises $250M at $2B Valuation",
+   "best_points": 0
+  },
+  {
+   "video_id": "_ahvzDzKdB0",
+   "repeat_count": 6,
+   "rec_votes": 6,
+   "talk_votes": 6,
+   "score": 24,
+   "queries": [
+    "brilliant talk youtube",
+    "compiler talk youtube",
+    "lock free programming talk",
+    "must watch talk",
+    "watch this talk"
+   ],
+   "story_titles": [
+    "TypeScript 0.9 \u2013 What\u2019s Improved",
+    "Crowdfunding for Typed Clojure and ClojureScript",
+    "Is Java the Cobol of tomorrow and Go the Java of the future?",
+    "An annotation nightmare",
+    "Do I Really Need a Programming Language?"
+   ],
+   "yt_title": "Growing a Language, by Guy Steele",
+   "channel": "Bill Pugh",
+   "channel_url": "https://www.youtube.com/@BillPugh",
+   "thumbnail": "https://i.ytimg.com/vi/_ahvzDzKdB0/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 2,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 1,
+    "craft": 2
+   },
+   "views": 164937,
+   "published": "2012-07-15",
+   "duration": 3211,
+   "yt_url": "https://www.youtube.com/watch?v=_ahvzDzKdB0",
+   "id": "v048",
+   "best_text": "This reminds me of Guy Steele's 1998 talk \"Growing a Language\" ( https://www.youtube.com/watch?v=_ahvzDzKdB0 ).",
+   "best_author": "pvorb",
+   "best_story": "Toki Pona: a human language with 120 words",
+   "best_points": 0
+  },
+  {
+   "video_id": "Ik1AK56FtVc",
+   "repeat_count": 6,
+   "rec_votes": 6,
+   "talk_votes": 6,
+   "score": 24,
+   "queries": [
+    "excellent talk youtube",
+    "must watch talk",
+    "profiling talk youtube",
+    "watch this talk"
+   ],
+   "story_titles": [
+    "Proposal for tax revolution: 3% income tax, 4% wealth tax",
+    "Show HN: I'm tired of corrupt US politicians, so I created this",
+    "Can the US tax code be simplified with computer modeling and simulation",
+    "Mark Cuban Is Endowing A Chair To \u2018Eliminate Stupid Patents\u2019",
+    "Shouldn't Robots Be Doing My Taxes By Now?"
+   ],
+   "yt_title": "Republic, Lost | Lawrence Lessig | Talks at Google",
+   "channel": "Talks at Google",
+   "channel_url": "https://www.youtube.com/@talksatgoogle",
+   "thumbnail": "https://i.ytimg.com/vi/Ik1AK56FtVc/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 4,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 4
+   },
+   "views": 95732,
+   "published": "2011-11-16",
+   "duration": 3439,
+   "yt_url": "https://www.youtube.com/watch?v=Ik1AK56FtVc",
+   "id": "v049",
+   "best_text": "His 1h talk about the contents of the book: https://www.youtube.com/watch?v=Ik1AK56FtVc",
+   "best_author": "higherpurpose",
+   "best_story": "The Launch of the Mayday Citizens' SuperPAC",
+   "best_points": 0
+  },
+  {
+   "video_id": "0CDXJ6bMkMY",
+   "repeat_count": 4,
+   "rec_votes": 2,
+   "talk_votes": 4,
+   "score": 14,
+   "queries": [
+    "recommended talk youtube",
+    "security talk youtube watch",
+    "watch this talk"
+   ],
+   "story_titles": [
+    "What does it take to run a web app with 5K \u2013 10K users?",
+    "Ask HN: Did you get \"never have to work again rich\" through software?",
+    "12 websites in 12 months",
+    "I quit my job last March and it was a bad idea."
+   ],
+   "yt_title": "David Heinemeier Hansson at Startup School 08",
+   "channel": "startupschool",
+   "channel_url": "https://www.youtube.com/@startupschool2486",
+   "thumbnail": "https://i.ytimg.com/vi/0CDXJ6bMkMY/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 2,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 2
+   },
+   "views": 201609,
+   "published": "2008-11-11",
+   "duration": 1916,
+   "yt_url": "https://www.youtube.com/watch?v=0CDXJ6bMkMY",
+   "id": "v050",
+   "best_text": "This is my fav: https://www.youtube.com/watch?v=0CDXJ6bMkMY",
+   "best_author": "rabidonrails",
+   "best_story": "Ask HN: What are some must-see talks for new SAAS entrepreneurs?",
+   "best_points": 0
+  },
+  {
+   "video_id": "ZTC_RxWN_xo",
+   "repeat_count": 3,
+   "rec_votes": 2,
+   "talk_votes": 3,
+   "score": 11,
+   "queries": [
+    "brilliant talk youtube",
+    "excellent talk youtube",
+    "watch this talk"
+   ],
+   "story_titles": [
+    "Ask HN: What's the best technical talk you've heard?",
+    "How Gordon Moore Invented the Talent Economy (and Changed The World)"
+   ],
+   "yt_title": "Secret History of Silicon Valley",
+   "channel": "Computer History Museum",
+   "channel_url": "https://www.youtube.com/@ComputerHistory",
+   "thumbnail": "https://i.ytimg.com/vi/ZTC_RxWN_xo/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 3,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 3
+   },
+   "views": 490821,
+   "published": "2008-12-03",
+   "duration": 3767,
+   "yt_url": "https://www.youtube.com/watch?v=ZTC_RxWN_xo",
+   "id": "v051",
+   "best_text": "I learned that history through this video some time ago: https://www.youtube.com/watch?v=ZTC_RxWN_xo",
+   "best_author": "asadlionpk",
+   "best_story": "The Government Once Built Silicon Valley",
+   "best_points": 0
+  },
+  {
+   "video_id": "bKGhvKyjgLY",
+   "repeat_count": 3,
+   "rec_votes": 2,
+   "talk_votes": 3,
+   "score": 11,
+   "queries": [
+    "assembly talk youtube",
+    "profiling talk youtube",
+    "watch this talk"
+   ],
+   "story_titles": [
+    "SSDs cost half of what they did in 2011",
+    "With 'The Machine,' HP May Have Invented a New Kind of Computer",
+    "64 Terabyte RAM computer from SGI"
+   ],
+   "yt_title": "Finding the Missing Memristor - R. Stanley Williams",
+   "channel": "The Qualcomm Institute",
+   "channel_url": "https://www.youtube.com/@qualcomminstitute",
+   "thumbnail": "https://i.ytimg.com/vi/bKGhvKyjgLY/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 133109,
+   "published": "2010-01-21",
+   "duration": 2872,
+   "yt_url": "https://www.youtube.com/watch?v=bKGhvKyjgLY",
+   "id": "v052",
+   "best_text": "Long but worth it: http://www.youtube.com/watch?v=bKGhvKyjgLY",
+   "best_author": "sschueller",
+   "best_story": "Memristor-based non-volatile memory matches DRAM performance",
+   "best_points": 0
+  },
+  {
+   "video_id": "EGeN2IC7N0Q",
+   "repeat_count": 3,
+   "rec_votes": 2,
+   "talk_votes": 3,
+   "score": 11,
+   "queries": [
+    "brilliant talk youtube",
+    "watch this talk"
+   ],
+   "story_titles": [
+    "Ask HN: What's the best technical talk you've heard?",
+    "The Two Cultures of Mathematics (2000) [pdf]"
+   ],
+   "yt_title": "Ian Piumarta - To trap a better mouse",
+   "channel": "FAST - Fundaci\u00f3n Argentina de Smalltalk",
+   "channel_url": "https://www.youtube.com/@FASTFoundation",
+   "thumbnail": "https://i.ytimg.com/vi/EGeN2IC7N0Q/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 5008,
+   "published": "2012-08-30",
+   "duration": 3503,
+   "yt_url": "https://www.youtube.com/watch?v=EGeN2IC7N0Q",
+   "id": "v053",
+   "best_text": "Good Piumarta talk on the why of building new languages: https://www.youtube.com/watch?v=EGeN2IC7N0Q",
+   "best_author": "hhas01",
+   "best_story": "Lisp Comes of Age (1980)",
+   "best_points": 0
+  },
+  {
+   "video_id": "o9pEzgHorH0",
+   "repeat_count": 2,
+   "rec_votes": 2,
+   "talk_votes": 2,
+   "score": 8,
+   "queries": [
+    "brilliant talk youtube",
+    "excellent talk youtube"
+   ],
+   "story_titles": [
+    "Better Python APIs",
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "Stop Writing Classes",
+   "channel": "Next Day Video",
+   "channel_url": "https://www.youtube.com/@NextDayVideo",
+   "thumbnail": "https://i.ytimg.com/vi/o9pEzgHorH0/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 3,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 3
+   },
+   "views": 961742,
+   "published": "2012-03-15",
+   "duration": 1649,
+   "yt_url": "https://www.youtube.com/watch?v=o9pEzgHorH0",
+   "id": "v054",
+   "best_text": "Don't think its this is just limited to java (Stop writing classes - python) http://www.youtube.com/watch?v=o9pEzgHorH0",
+   "best_author": "platz",
+   "best_story": "Execution in the Kingdom of Nouns (2006)",
+   "best_points": 0
+  },
+  {
+   "video_id": "PUv66718DII",
+   "repeat_count": 2,
+   "rec_votes": 2,
+   "talk_votes": 2,
+   "score": 8,
+   "queries": [
+    "brilliant talk youtube",
+    "excellent talk youtube"
+   ],
+   "story_titles": [
+    "Vim, you complete me",
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "Bret Victor - Inventing on Principle",
+   "channel": "Rui Oliveira",
+   "channel_url": "https://www.youtube.com/@ruif99",
+   "thumbnail": "https://i.ytimg.com/vi/PUv66718DII/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 338952,
+   "published": "2012-02-22",
+   "duration": 3260,
+   "yt_url": "https://www.youtube.com/watch?v=PUv66718DII",
+   "id": "v055",
+   "best_text": "Bret Victor: Inventing on Principle http://www.youtube.com/watch?v=PUv66718DII",
+   "best_author": "mdkess",
+   "best_story": "Ask HN: What's the best technical talk you've heard?",
+   "best_points": 0
+  },
+  {
+   "video_id": "ShEez0JkOFw",
+   "repeat_count": 2,
+   "rec_votes": 2,
+   "talk_votes": 2,
+   "score": 8,
+   "queries": [
+    "compiler talk youtube",
+    "favorite conference talk"
+   ],
+   "story_titles": [
+    "JavaScript: The Right Way",
+    "Best development book I've read, has no code in it"
+   ],
+   "yt_title": "Tim Ewald - Clojure: Programming with Hand Tools",
+   "channel": "ClojureTV",
+   "channel_url": "https://www.youtube.com/@ClojureTV",
+   "thumbnail": "https://i.ytimg.com/vi/ShEez0JkOFw/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 2,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 2
+   },
+   "views": 47709,
+   "published": "2014-01-08",
+   "duration": 3519,
+   "yt_url": "https://www.youtube.com/watch?v=ShEez0JkOFw",
+   "id": "v056",
+   "best_text": "There was a talk at Clojure/conj by Tim Ewald on just that: https://www.youtube.com/watch?v=ShEez0JkOFw \"Programming with hand tools\" Lots of conference reviews nominated it in their favourite talks too.",
+   "best_author": "mark_h",
+   "best_story": "Best development book I've read, has no code in it",
+   "best_points": 0
+  },
+  {
+   "video_id": "TgmA48fILq8",
+   "repeat_count": 2,
+   "rec_votes": 2,
+   "talk_votes": 2,
+   "score": 8,
+   "queries": [
+    "brilliant talk youtube",
+    "watch this talk"
+   ],
+   "story_titles": [
+    "Stripping kernel/uboot source to 10% for code reading",
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "Dtrace Review",
+   "channel": "GoogleTalksArchive",
+   "channel_url": "https://www.youtube.com/@GoogleTalksArchive",
+   "thumbnail": "https://i.ytimg.com/vi/TgmA48fILq8/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 3,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 1,
+    "craft": 3
+   },
+   "views": 18960,
+   "published": "2012-08-22",
+   "duration": 4682,
+   "yt_url": "https://www.youtube.com/watch?v=TgmA48fILq8",
+   "id": "v057",
+   "best_text": "In case you haven't seen this gem: https://www.youtube.com/watch?v=TgmA48fILq8 Young Bryan is on a whole different level.",
+   "best_author": "panick21_",
+   "best_story": "Asahi Linux project's OpenGL support on Apple Silicon officially surpasses Apple",
+   "best_points": 0
+  },
+  {
+   "video_id": "0SARbwvhupQ",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 2,
+   "score": 7,
+   "queries": [
+    "assembly talk youtube",
+    "brilliant talk youtube"
+   ],
+   "story_titles": [
+    "Ask HN: What do you do when you realize you are not a programmer?",
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "Google I/O 2009 - The Myth of the Genius Programmer",
+   "channel": "Google for Developers",
+   "channel_url": "https://www.youtube.com/@GoogleDevelopers",
+   "thumbnail": "https://i.ytimg.com/vi/0SARbwvhupQ/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 1215361,
+   "published": "2009-06-02",
+   "duration": 3316,
+   "yt_url": "https://www.youtube.com/watch?v=0SARbwvhupQ",
+   "id": "v058",
+   "best_text": "The Myth of the Genius Programmer https://www.youtube.com/watch?v=0SARbwvhupQ",
+   "best_author": "toutouastro",
+   "best_story": "Ask HN: What's the best technical talk you've heard?",
+   "best_points": 0
+  },
+  {
+   "video_id": "hQVTIJBZook",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 2,
+   "score": 7,
+   "queries": [
+    "brilliant talk youtube",
+    "watch this talk"
+   ],
+   "story_titles": [
+    "Javascript is now strategic for Microsoft",
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "JavaScript: The Good Parts",
+   "channel": "Google TechTalks",
+   "channel_url": "https://www.youtube.com/@GoogleTechTalks",
+   "thumbnail": "https://i.ytimg.com/vi/hQVTIJBZook/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 2,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 2
+   },
+   "views": 589403,
+   "published": "2009-02-27",
+   "duration": 3827,
+   "yt_url": "https://www.youtube.com/watch?v=hQVTIJBZook",
+   "id": "v059",
+   "best_points": 0
+  },
+  {
+   "video_id": "a1zDuOPkMSw",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 2,
+   "score": 7,
+   "queries": [
+    "brilliant talk youtube",
+    "watch this talk"
+   ],
+   "story_titles": [
+    "Richard Hamming: You and Your Research (1986)",
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "Hamming, \"You and Your Research\" (June 6, 1995)",
+   "channel": "securitylectures",
+   "channel_url": "https://www.youtube.com/@securitylectures",
+   "thumbnail": "https://i.ytimg.com/vi/a1zDuOPkMSw/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 1,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 368284,
+   "published": "2012-08-25",
+   "duration": 2642,
+   "yt_url": "https://www.youtube.com/watch?v=a1zDuOPkMSw",
+   "id": "v060",
+   "best_points": 0
+  },
+  {
+   "video_id": "NGFhc8R_uO4",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 2,
+   "score": 7,
+   "queries": [
+    "brilliant talk youtube",
+    "watch this talk"
+   ],
+   "story_titles": [
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "Indistinguishable From Magic: Manufacturing Modern Computer Chips",
+   "channel": "Andor Gafotas",
+   "channel_url": "https://www.youtube.com/@andorgafotas7032",
+   "thumbnail": "https://i.ytimg.com/vi/NGFhc8R_uO4/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 208967,
+   "published": "2012-08-02",
+   "duration": 3680,
+   "yt_url": "https://www.youtube.com/watch?v=NGFhc8R_uO4",
+   "id": "v061",
+   "best_text": "Great talk that describes how modern (as of 2011) computer chips are manufactured: https://www.youtube.com/watch?v=NGFhc8R_uO4",
+   "best_author": "RoboTeddy",
+   "best_story": "IBM says it has made working versions of 7nm chips",
+   "best_points": 0
+  },
+  {
+   "video_id": "WpkDN78P884",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 2,
+   "score": 7,
+   "queries": [
+    "excellent talk youtube",
+    "watch this talk"
+   ],
+   "story_titles": [
+    "RIP TDD",
+    "TDD is fun"
+   ],
+   "yt_title": "Ruby Midwest 2011 - Keynote: Architecture the Lost Years by Robert Martin",
+   "channel": "Confreaks",
+   "channel_url": "https://www.youtube.com/@Confreaks",
+   "thumbnail": "https://i.ytimg.com/vi/WpkDN78P884/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 172264,
+   "published": "2012-01-18",
+   "duration": 3998,
+   "yt_url": "https://www.youtube.com/watch?v=WpkDN78P884",
+   "id": "v062",
+   "best_text": "http://m.youtube.com/watch?v=WpkDN78P884",
+   "best_author": "jshen",
+   "best_story": "RIP TDD",
+   "best_points": 0
+  },
+  {
+   "video_id": "FITJMJjASUs",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 2,
+   "score": 7,
+   "queries": [
+    "excellent talk youtube",
+    "must watch talk"
+   ],
+   "story_titles": [
+    "So very sad to hear about the passing of Ruby legend Jim Weirich",
+    "Tech Talks"
+   ],
+   "yt_title": "Ruby Conf 12 - Y Not- Adventures in Functional Programming by Jim Weirich",
+   "channel": "Confreaks",
+   "channel_url": "https://www.youtube.com/@Confreaks",
+   "thumbnail": "https://i.ytimg.com/vi/FITJMJjASUs/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 2,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 1,
+    "craft": 2
+   },
+   "views": 65427,
+   "published": "2012-11-10",
+   "duration": 3201,
+   "yt_url": "https://www.youtube.com/watch?v=FITJMJjASUs",
+   "id": "v063",
+   "best_text": "One of my favorite programming videos: Jim Weirich on the Y Combinator https://www.youtube.com/watch?v=FITJMJjASUs",
+   "best_author": "vqc",
+   "best_story": "The Y Combinator (no, not that one) \u2013 A Crash Course on Lambda Calculus",
+   "best_points": 0
+  },
+  {
+   "video_id": "KTJs-0EInW8",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 2,
+   "score": 7,
+   "queries": [
+    "brilliant talk youtube",
+    "watch this talk"
+   ],
+   "story_titles": [
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "Stanford Seminar - Google's Steve Yegge on GROK",
+   "channel": "Stanford Online",
+   "channel_url": "https://www.youtube.com/@stanfordonline",
+   "thumbnail": "https://i.ytimg.com/vi/KTJs-0EInW8/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 2,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 2
+   },
+   "views": 29762,
+   "published": "2012-10-24",
+   "duration": 4829,
+   "yt_url": "https://www.youtube.com/watch?v=KTJs-0EInW8",
+   "id": "v064",
+   "best_text": "Kythe is indeed based on the Grok project that Steve described in https://www.youtube.com/watch?v=KTJs-0EInW8",
+   "best_author": "creachadair",
+   "best_story": "Kythe: A pluggable ecosystem for building tools that work with code",
+   "best_points": 0
+  },
+  {
+   "video_id": "rk6z1vP4Eo8",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 2,
+   "score": 7,
+   "queries": [
+    "excellent talk youtube",
+    "watch this talk"
+   ],
+   "story_titles": [
+    "A Star in a Bottle",
+    "Dry-run experiments verify key aspect of Sandia nuclear fusion concept"
+   ],
+   "yt_title": "Should Google Go Nuclear? Clean, cheap, nuclear power (no, really)",
+   "channel": "GoogleTalksArchive",
+   "channel_url": "https://www.youtube.com/@GoogleTalksArchive",
+   "thumbnail": "https://i.ytimg.com/vi/rk6z1vP4Eo8/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 2,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 1,
+    "craft": 2
+   },
+   "views": 23021,
+   "published": "2012-08-22",
+   "duration": 5558,
+   "yt_url": "https://www.youtube.com/watch?v=rk6z1vP4Eo8",
+   "id": "v065",
+   "best_text": "I believe he's referring to assertions made by Robert Bussard in this talk http://www.youtube.com/watch?v=rk6z1vP4Eo8 .",
+   "best_author": "marktangotango",
+   "best_story": "A Star in a Bottle",
+   "best_points": 0
+  },
+  {
+   "video_id": "824yVKUPFjU",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 2,
+   "score": 7,
+   "queries": [
+    "changed how I think talk",
+    "watch this talk"
+   ],
+   "story_titles": [
+    "Ramda \u2013 A practical functional library for Javascript",
+    "Reimplementing TeX's Algorithms: Looking Back at Thirty Years of Programming"
+   ],
+   "yt_title": "Glenn Vanderburg - Cl\u00f3: The Algorithms of TeX in Clojure",
+   "channel": "ClojureTV",
+   "channel_url": "https://www.youtube.com/@ClojureTV",
+   "thumbnail": "https://i.ytimg.com/vi/824yVKUPFjU/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 2,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 2
+   },
+   "views": 9391,
+   "published": "2014-11-21",
+   "duration": 2544,
+   "yt_url": "https://www.youtube.com/watch?v=824yVKUPFjU",
+   "id": "v066",
+   "best_text": "[0] https://www.youtube.com/watch?v=824yVKUPFjU EDIT Time is on their side though...",
+   "best_author": "gavinpc",
+   "best_story": "Ramda \u2013 A practical functional library for Javascript",
+   "best_points": 0
+  },
+  {
+   "video_id": "cidchWg74Y4",
+   "repeat_count": 2,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 6,
+   "queries": [
+    "brilliant talk youtube",
+    "talk everyone should watch"
+   ],
+   "story_titles": [
+    "Ask HN: What's the best technical talk you've heard?",
+    "Lisp: More is less"
+   ],
+   "yt_title": "Simplicity Ain't Easy - Stuart Halloway",
+   "channel": "ClojureTV",
+   "channel_url": "https://www.youtube.com/@ClojureTV",
+   "thumbnail": "https://i.ytimg.com/vi/cidchWg74Y4/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 23945,
+   "published": "2012-12-16",
+   "duration": 3000,
+   "yt_url": "https://www.youtube.com/watch?v=cidchWg74Y4",
+   "id": "v067",
+   "best_text": "I'll add this to your links: https://www.youtube.com/watch?v=cidchWg74Y4 He talks about his definition of \"simple\" (by digging into what the original English definition was) and what that means for code.",
+   "best_author": "dkersten",
+   "best_story": "I don't love the single responsibility principle",
+   "best_points": 0
+  },
+  {
+   "video_id": "Ag1AKIl_2GM",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "watch this talk"
+   ],
+   "story_titles": [
+    "VMWare Taken to Court Over GPL Violation"
+   ],
+   "yt_title": "Free software, free society: Richard Stallman at TEDxGeneva 2014",
+   "channel": "TEDx Talks",
+   "channel_url": "https://www.youtube.com/@TEDx",
+   "thumbnail": "https://i.ytimg.com/vi/Ag1AKIl_2GM/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 3,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 3
+   },
+   "views": 486982,
+   "published": "2014-06-12",
+   "duration": 819,
+   "yt_url": "https://www.youtube.com/watch?v=Ag1AKIl_2GM",
+   "id": "v068",
+   "best_text": "YouTube version: https://www.youtube.com/watch?v=Ag1AKIl_2GM",
+   "best_author": "chmars",
+   "best_story": "Richard Stallman at TEDx Geneva 2014",
+   "best_points": 0
+  },
+  {
+   "video_id": "r8fcqrNO7so",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "watch this talk"
+   ],
+   "story_titles": [
+    "Astrology For Businesses"
+   ],
+   "yt_title": "Search Inside Yourself | Chade-Meng Tan | Talks at Google",
+   "channel": "Talks at Google",
+   "channel_url": "https://www.youtube.com/@talksatgoogle",
+   "thumbnail": "https://i.ytimg.com/vi/r8fcqrNO7so/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 3,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 3
+   },
+   "views": 467937,
+   "published": "2012-04-26",
+   "duration": 3254,
+   "yt_url": "https://www.youtube.com/watch?v=r8fcqrNO7so",
+   "id": "v069",
+   "best_text": "they aren't Zen masters\" Well, not all of them, at least :) http://www.youtube.com/watch?v=r8fcqrNO7so",
+   "best_author": "CodeCube",
+   "best_story": "Google Blindness",
+   "best_points": 0
+  },
+  {
+   "video_id": "aAb7hSCtvGw",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "brilliant talk youtube"
+   ],
+   "story_titles": [
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "How To Design A Good API and Why it Matters",
+   "channel": "Google TechTalks",
+   "channel_url": "https://www.youtube.com/@GoogleTechTalks",
+   "thumbnail": "https://i.ytimg.com/vi/aAb7hSCtvGw/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 2,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 2
+   },
+   "views": 452958,
+   "published": "2007-10-08",
+   "duration": 3619,
+   "yt_url": "https://www.youtube.com/watch?v=aAb7hSCtvGw",
+   "id": "v070",
+   "best_text": "I also like this josh bloch google tech talk video \"How to design a good API and why it matters.\": http://www.youtube.com/watch?v=aAb7hSCtvGw",
+   "best_author": "throw_away",
+   "best_story": "Ask HN: Who makes the best APIs?",
+   "best_points": 0
+  },
+  {
+   "video_id": "ZDR433b0HJY",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "brilliant talk youtube"
+   ],
+   "story_titles": [
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "Introduction to Git with Scott Chacon of GitHub",
+   "channel": "InfoQ",
+   "channel_url": "https://www.youtube.com/@infoq",
+   "thumbnail": "https://i.ytimg.com/vi/ZDR433b0HJY/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 396252,
+   "published": "2011-07-27",
+   "duration": 4931,
+   "yt_url": "https://www.youtube.com/watch?v=ZDR433b0HJY",
+   "id": "v071",
+   "best_points": 0
+  },
+  {
+   "video_id": "xHXn3Kg2IQE",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "profiling talk youtube"
+   ],
+   "story_titles": [
+    "Pocket team's tips for aspiring Android developers: It\u2019s not really terrifying."
+   ],
+   "yt_title": "Google I/O 2010 - Android REST client applications",
+   "channel": "Google for Developers",
+   "channel_url": "https://www.youtube.com/@GoogleDevelopers",
+   "thumbnail": "https://i.ytimg.com/vi/xHXn3Kg2IQE/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 244487,
+   "published": "2010-05-27",
+   "duration": 3582,
+   "yt_url": "https://www.youtube.com/watch?v=xHXn3Kg2IQE",
+   "id": "v072"
+  },
+  {
+   "video_id": "yjPBkvYh-ss",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "brilliant talk youtube"
+   ],
+   "story_titles": [
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "Cluster Computing and MapReduce Lecture 1",
+   "channel": "Google for Developers",
+   "channel_url": "https://www.youtube.com/@GoogleDevelopers",
+   "thumbnail": "https://i.ytimg.com/vi/yjPBkvYh-ss/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 2,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 2
+   },
+   "views": 230456,
+   "published": "2007-08-28",
+   "duration": 2777,
+   "yt_url": "https://www.youtube.com/watch?v=yjPBkvYh-ss",
+   "id": "v073",
+   "best_text": ":-) I really liked googles map reduce lectures: http://www.youtube.com/watch?v=yjPBkvYh-ss Wish google would update the quality and fix the link to the slides - heres a copy on slide share: http://www.slideshare.net/sriprasanna/introduction-to-cluste...",
+   "best_author": "wavesounds",
+   "best_story": "Ask HN: What's the best technical talk you've heard?",
+   "best_points": 0
+  },
+  {
+   "video_id": "k2h2lvhzMDc",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "recommended talk youtube"
+   ],
+   "story_titles": [
+    "What they don't tell you about being a game developer"
+   ],
+   "yt_title": "Ed Catmull, Pixar: Keep Your Crises Small",
+   "channel": "Stanford Graduate School of Business",
+   "channel_url": "https://www.youtube.com/@stanfordgsb",
+   "thumbnail": "https://i.ytimg.com/vi/k2h2lvhzMDc/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 2,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 2
+   },
+   "views": 216621,
+   "published": "2009-07-28",
+   "duration": 3251,
+   "yt_url": "https://www.youtube.com/watch?v=k2h2lvhzMDc",
+   "id": "v074",
+   "best_text": "Ed Catmull, Pixar: Keep Your Crises Small , Stanford Graduate School of Business http://www.youtube.com/watch?v=k2h2lvhzMDc (54:11) Long.",
+   "best_author": "6ren",
+   "best_story": "Inside Pixar's Leadership",
+   "best_points": 0
+  },
+  {
+   "video_id": "5WXYw4J4QOU",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "brilliant talk youtube"
+   ],
+   "story_titles": [
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "Designing a Beautiful REST+JSON API",
+   "channel": "InfoQ",
+   "channel_url": "https://www.youtube.com/@infoq",
+   "thumbnail": "https://i.ytimg.com/vi/5WXYw4J4QOU/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 130552,
+   "published": "2012-07-18",
+   "duration": 5152,
+   "yt_url": "https://www.youtube.com/watch?v=5WXYw4J4QOU",
+   "id": "v075",
+   "best_text": "In this presentation, Les Hazlewood - Stormpath CTO and Apache Shiro PMC Chair - will share all of the golden nuggets learned while designing, implementing and supporting JSON-based REST APIs http://www.youtube.com/watch?v=5WXYw4J4QOU",
+   "best_author": "ggurgone",
+   "best_story": "Ask HN: How do you build your APIs?",
+   "best_points": 0
+  },
+  {
+   "video_id": "oKg1hTOQXoY",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "brilliant talk youtube"
+   ],
+   "story_titles": [
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "Alan Kay at OOPSLA 1997 - The computer revolution hasnt happened yet",
+   "channel": "Jeff Gonis",
+   "channel_url": "https://www.youtube.com/@jeffgonis8975",
+   "thumbnail": "https://i.ytimg.com/vi/oKg1hTOQXoY/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 126703,
+   "published": "2013-02-11",
+   "duration": 3873,
+   "yt_url": "https://www.youtube.com/watch?v=oKg1hTOQXoY",
+   "id": "v076",
+   "best_points": 0
+  },
+  {
+   "video_id": "sgHbC6udIqc",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "excellent talk youtube"
+   ],
+   "story_titles": [
+    "Why Perl Didn't Win"
+   ],
+   "yt_title": "Pragmatic Unicode, or, How do I stop the pain?",
+   "channel": "Next Day Video",
+   "channel_url": "https://www.youtube.com/@NextDayVideo",
+   "thumbnail": "https://i.ytimg.com/vi/sgHbC6udIqc/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 2,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 2
+   },
+   "views": 80420,
+   "published": "2012-03-15",
+   "duration": 2180,
+   "yt_url": "https://www.youtube.com/watch?v=sgHbC6udIqc",
+   "id": "v077",
+   "best_text": "For python people, I found this 30 min talk by Ned Batchelder extremely helpful: https://www.youtube.com/watch?v=sgHbC6udIqc",
+   "best_author": "pav3l",
+   "best_story": "What Every Programmer Needs To Know About Encodings And Character Sets",
+   "best_points": 0
+  },
+  {
+   "video_id": "IQpg0tvap4A",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "watch this talk"
+   ],
+   "story_titles": [
+    "'Cannonball' speed record broken \u2013 New York to LA in less than 29 hours"
+   ],
+   "yt_title": "My Dangerous Pursuit of Speed and Truth in the Outlaw Racing World | Alex Roy | Talks at Google",
+   "channel": "Talks at Google",
+   "channel_url": "https://www.youtube.com/@talksatgoogle",
+   "thumbnail": "https://i.ytimg.com/vi/IQpg0tvap4A/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 3,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 3
+   },
+   "views": 78095,
+   "published": "2008-08-04",
+   "duration": 3318,
+   "yt_url": "https://www.youtube.com/watch?v=IQpg0tvap4A",
+   "id": "v078",
+   "best_text": "For those interested in what this kind of thing takes, I recommend this talk by Alex Roy at Google NY: http://www.youtube.com/watch?v=IQpg0tvap4A",
+   "best_author": "spuz",
+   "best_story": "'Cannonball' speed record broken \u2013 New York to LA in less than 29 hours",
+   "best_points": 0
+  },
+  {
+   "video_id": "vShMxxqtDDs",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "watch this talk"
+   ],
+   "story_titles": [
+    "How Google Cracked House Number Identification in Street View"
+   ],
+   "yt_title": "Geoff Hinton - Recent Developments in Deep Learning",
+   "channel": "UBC Computer Science",
+   "channel_url": "https://www.youtube.com/@UBCCPSC",
+   "thumbnail": "https://i.ytimg.com/vi/vShMxxqtDDs/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 77454,
+   "published": "2013-06-04",
+   "duration": 3917,
+   "yt_url": "https://www.youtube.com/watch?v=vShMxxqtDDs",
+   "id": "v079",
+   "best_text": "You can watch this talk to get an idea for what they're about: http://www.youtube.com/watch?v=vShMxxqtDDs",
+   "best_author": "mtrimpe",
+   "best_story": "How Google Cracked House Number Identification in Street View",
+   "best_points": 0
+  },
+  {
+   "video_id": "8sY-qwEYjs0",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "excellent talk youtube"
+   ],
+   "story_titles": [
+    "Ask HN: What should I do?"
+   ],
+   "yt_title": "What You're Really Meant to Do | Robert Steven Kaplan | Talks at Google",
+   "channel": "Talks at Google",
+   "channel_url": "https://www.youtube.com/@talksatgoogle",
+   "thumbnail": "https://i.ytimg.com/vi/8sY-qwEYjs0/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 3,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 3
+   },
+   "views": 70478,
+   "published": "2013-08-09",
+   "duration": 2912,
+   "yt_url": "https://www.youtube.com/watch?v=8sY-qwEYjs0",
+   "id": "v080",
+   "best_text": "Here's his presentation from Talks @ Google, https://www.youtube.com/watch?v=8sY-qwEYjs0",
+   "best_author": "JSeymourATL",
+   "best_story": "Ask HN: Do you have a dream job?",
+   "best_points": 0
+  },
+  {
+   "video_id": "1-dUkyn_fZA",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "watch this talk"
+   ],
+   "story_titles": [
+    "Patoline: A modern digital typesetting system"
+   ],
+   "yt_title": "Emacs + org-mode + python in reproducible research; SciPy 2013 Presentation",
+   "channel": "Enthought",
+   "channel_url": "https://www.youtube.com/@enthought",
+   "thumbnail": "https://i.ytimg.com/vi/1-dUkyn_fZA/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 49743,
+   "published": "2013-07-02",
+   "duration": 1276,
+   "yt_url": "https://www.youtube.com/watch?v=1-dUkyn_fZA",
+   "id": "v081",
+   "best_text": "This SciPy presentation (Kitchin, John Carnegie Mellon University) on Emacs + org-mode + python in reproducible research is worth a watch: https://www.youtube.com/watch?v=1-dUkyn_fZA",
+   "best_author": "rndn",
+   "best_story": "Emacs for Data Science",
+   "best_points": 0
+  },
+  {
+   "video_id": "8gM3xMObEz4",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "profiling talk youtube"
+   ],
+   "story_titles": [
+    "Ask HN: What source code is worth studying?"
+   ],
+   "yt_title": "Minecraft.js",
+   "channel": "Next Day Video",
+   "channel_url": "https://www.youtube.com/@NextDayVideo",
+   "thumbnail": "https://i.ytimg.com/vi/8gM3xMObEz4/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 3,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 1,
+    "craft": 3
+   },
+   "views": 43820,
+   "published": "2013-05-26",
+   "duration": 2603,
+   "yt_url": "https://www.youtube.com/watch?v=8gM3xMObEz4",
+   "id": "v082"
+  },
+  {
+   "video_id": "RlkCdM_f3p4",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "brilliant talk youtube"
+   ],
+   "story_titles": [
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "Building a Website To Scale",
+   "channel": "ConFoo Developer Conference",
+   "channel_url": "https://www.youtube.com/@confooca",
+   "thumbnail": "https://i.ytimg.com/vi/RlkCdM_f3p4/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 38783,
+   "published": "2012-05-12",
+   "duration": 2583,
+   "yt_url": "https://www.youtube.com/watch?v=RlkCdM_f3p4",
+   "id": "v083",
+   "best_text": "Eric Pickup on scaling YouPorn [SFW]: https://www.youtube.com/watch?v=RlkCdM_f3p4 [edit] Spoiler alert: Everything's in Redis!",
+   "best_author": "gee_totes",
+   "best_story": "Ask HN: What's the best technical talk you've heard?",
+   "best_points": 0
+  },
+  {
+   "video_id": "3v9t_IoOgyI",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "excellent talk youtube"
+   ],
+   "story_titles": [
+    "Inside the NSA's War on Internet Security"
+   ],
+   "yt_title": "NSA Surveillance and What To Do About It - Bruce Schneier",
+   "channel": "Stanford Center for Internet & Society",
+   "channel_url": "https://www.youtube.com/@stanfordcis",
+   "thumbnail": "https://i.ytimg.com/vi/3v9t_IoOgyI/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 2,
+   "lane_scores": {
+    "security": 1,
+    "hpc": 0,
+    "craft": 2
+   },
+   "views": 37717,
+   "published": "2014-04-22",
+   "duration": 4228,
+   "yt_url": "https://www.youtube.com/watch?v=3v9t_IoOgyI",
+   "id": "v084",
+   "best_text": "He makes it more clear why NSA is so wrong in thinking the way they do about vulnerabilities: https://www.youtube.com/watch?v=3v9t_IoOgyI [1] - https://en.wikipedia.org/wiki/Yes_Minister",
+   "best_author": "higherpurpose",
+   "best_story": "White House defends right to keep cybersecurity vulnerabilities secret",
+   "best_points": 0
+  },
+  {
+   "video_id": "13cmHf_kt-Q",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "best programming talk"
+   ],
+   "story_titles": [
+    "Spider Programming Language"
+   ],
+   "yt_title": "Stuart Sierra - Components Just Enough Structure",
+   "channel": "ClojureTV",
+   "channel_url": "https://www.youtube.com/@ClojureTV",
+   "thumbnail": "https://i.ytimg.com/vi/13cmHf_kt-Q/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 35963,
+   "published": "2014-03-26",
+   "duration": 2478,
+   "yt_url": "https://www.youtube.com/watch?v=13cmHf_kt-Q",
+   "id": "v085",
+   "best_text": "[1] https://github.com/stuartsierra/component [2] https://www.youtube.com/watch?v=13cmHf_kt-Q [3] https://github.com/juxt/jig",
+   "best_author": "jared314",
+   "best_story": "Introducing .NET Core",
+   "best_points": 0
+  },
+  {
+   "video_id": "tx082gDwGcM",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "brilliant talk youtube"
+   ],
+   "story_titles": [
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "Human Computation",
+   "channel": "GoogleTalksArchive",
+   "channel_url": "https://www.youtube.com/@GoogleTalksArchive",
+   "thumbnail": "https://i.ytimg.com/vi/tx082gDwGcM/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 3,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 3
+   },
+   "views": 31243,
+   "published": "2012-08-22",
+   "duration": 3092,
+   "yt_url": "https://www.youtube.com/watch?v=tx082gDwGcM",
+   "id": "v086",
+   "best_text": "I remember there being a better version of this, but Luis von Ahn's talk on \"Human Computation\" was great: http://www.youtube.com/watch?v=tx082gDwGcM",
+   "best_author": "bemmu",
+   "best_story": "Ask HN: What's the best technical talk you've heard?",
+   "best_points": 0
+  },
+  {
+   "video_id": "NP9AIUT9nos",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "brilliant talk youtube"
+   ],
+   "story_titles": [
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "Lone Star Ruby Conference 2010 Real Software Engineering by Glenn Vanderburg",
+   "channel": "Confreaks",
+   "channel_url": "https://www.youtube.com/@Confreaks",
+   "thumbnail": "https://i.ytimg.com/vi/NP9AIUT9nos/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 2,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 2
+   },
+   "views": 30417,
+   "published": "2011-10-24",
+   "duration": 3117,
+   "yt_url": "https://www.youtube.com/watch?v=NP9AIUT9nos",
+   "id": "v087",
+   "best_text": "This talk describes how the waterfall development model was a caricature that got accidentally turned into reality: https://www.youtube.com/watch?v=NP9AIUT9nos \"Lone Star Ruby Conference 2010 Real Software Engineering by Glenn Vanderburg\"",
+   "best_author": "nayuki",
+   "best_story": "The Myth of the 'Waterfall' SDLC (2019)",
+   "best_points": 0
+  },
+  {
+   "video_id": "5uljtqyBLxI",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "excellent talk youtube"
+   ],
+   "story_titles": [
+    "JOP: A Tiny Java Processor Core for FPGA"
+   ],
+   "yt_title": "Java on a 1000 Cores - Tales of Hardware / Software CoDesign",
+   "channel": "Google TechTalks",
+   "channel_url": "https://www.youtube.com/@GoogleTechTalks",
+   "thumbnail": "https://i.ytimg.com/vi/5uljtqyBLxI/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 23095,
+   "published": "2009-09-08",
+   "duration": 4321,
+   "yt_url": "https://www.youtube.com/watch?v=5uljtqyBLxI",
+   "id": "v088",
+   "best_text": "This tech talk is an in depth look at their CPU design process http://www.youtube.com/watch?v=5uljtqyBLxI",
+   "best_author": "andrewvc",
+   "best_story": "A Crash Course in Modern Hardware",
+   "best_points": 0
+  },
+  {
+   "video_id": "mAk1MX3ES_g",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "watch this talk"
+   ],
+   "story_titles": [
+    "Ask HN: Please review a Craigslist mashup [alpha]"
+   ],
+   "yt_title": "Discuss Disruption | Fred Wilson | Talks at Google",
+   "channel": "Talks at Google",
+   "channel_url": "https://www.youtube.com/@talksatgoogle",
+   "thumbnail": "https://i.ytimg.com/vi/mAk1MX3ES_g/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 3,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 3
+   },
+   "views": 22229,
+   "published": "2009-05-22",
+   "duration": 3267,
+   "yt_url": "https://www.youtube.com/watch?v=mAk1MX3ES_g",
+   "id": "v089"
+  },
+  {
+   "video_id": "agw-wlHGi0E",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "brilliant talk youtube"
+   ],
+   "story_titles": [
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "Dynamic Languages Wizards Series - Panel on Language Design",
+   "channel": "Eduardo Cavazos",
+   "channel_url": "https://www.youtube.com/@dharmatech",
+   "thumbnail": "https://i.ytimg.com/vi/agw-wlHGi0E/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 2,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 2
+   },
+   "views": 15728,
+   "published": "2012-04-04",
+   "duration": 7125,
+   "yt_url": "https://www.youtube.com/watch?v=agw-wlHGi0E",
+   "id": "v090",
+   "best_text": "Mentioned here: https://www.youtube.com/watch?v=agw-wlHGi0E&t=1h45m40s",
+   "best_author": "nomilk",
+   "best_story": "Perlis's Programming Epigrams",
+   "best_points": 0
+  },
+  {
+   "video_id": "U_EKZvb7gc8",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "excellent talk youtube"
+   ],
+   "story_titles": [
+    "Rising gas prices may be to blame for economic doldrums"
+   ],
+   "yt_title": "Amory Lovins - Reinventing Fire, Berkeley Lab Distinguished Lecture Series. May 5th, 2011",
+   "channel": "Berkeley Lab",
+   "channel_url": "https://www.youtube.com/@BerkeleyLab",
+   "thumbnail": "https://i.ytimg.com/vi/U_EKZvb7gc8/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 2,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 2
+   },
+   "views": 9283,
+   "published": "2011-05-13",
+   "duration": 4757,
+   "yt_url": "https://www.youtube.com/watch?v=U_EKZvb7gc8",
+   "id": "v091",
+   "best_points": 0
+  },
+  {
+   "video_id": "jhlVHoeB05A",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "compiler talk youtube"
+   ],
+   "story_titles": [
+    "I Love Julia"
+   ],
+   "yt_title": "Crossing Language Barriers with Julia, SciPy,IPython | EuroSciPy 2014 | Stephen G  Johnson",
+   "channel": "Enthought",
+   "channel_url": "https://www.youtube.com/@enthought",
+   "thumbnail": "https://i.ytimg.com/vi/jhlVHoeB05A/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 8748,
+   "published": "2014-10-22",
+   "duration": 4278,
+   "yt_url": "https://www.youtube.com/watch?v=jhlVHoeB05A",
+   "id": "v092",
+   "best_text": "There seems to me to be an overlap between Matz's typng ideas and some of the \"static\" typing generated by Julia: https://www.youtube.com/watch?v=jhlVHoeB05A https://www.youtube.com/watch?v=VCp1jUgVRgE",
+   "best_author": "Paddy3118",
+   "best_story": "Matz at RubyConf 2014: Will Ruby 3.0 Be Statically Typed?",
+   "best_points": 0
+  },
+  {
+   "video_id": "RoP5MdpMBc4",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "watch this talk"
+   ],
+   "story_titles": [
+    "Stanford bioengineer develops a 50-cent paper microscope"
+   ],
+   "yt_title": "Building an Origami-based Paper Microscope: Frugal Science for Global Cause with Manu Prakash",
+   "channel": "Stanford Alumni",
+   "channel_url": "https://www.youtube.com/@StanfordAlumni",
+   "thumbnail": "https://i.ytimg.com/vi/RoP5MdpMBc4/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 3,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 3
+   },
+   "views": 7564,
+   "published": "2017-05-03",
+   "duration": 3581,
+   "yt_url": "https://www.youtube.com/watch?v=RoP5MdpMBc4",
+   "id": "v093",
+   "best_text": "This talk is also very good for more depth http://www.youtube.com/watch?v=RoP5MdpMBc4&feature=share&lis...",
+   "best_author": "minikomi",
+   "best_story": "Stanford bioengineer develops a 50-cent paper microscope",
+   "best_points": 0
+  },
+  {
+   "video_id": "nG66hIhUdEU",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "brilliant talk youtube"
+   ],
+   "story_titles": [
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "Google I/O 2008 - Can We Get There from Here?",
+   "channel": "Google for Developers",
+   "channel_url": "https://www.youtube.com/@GoogleDevelopers",
+   "thumbnail": "https://i.ytimg.com/vi/nG66hIhUdEU/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 6275,
+   "published": "2008-06-10",
+   "duration": 3699,
+   "yt_url": "https://www.youtube.com/watch?v=nG66hIhUdEU",
+   "id": "v094",
+   "best_text": "http://www.youtube.com/watch?v=nG66hIhUdEU Looking back, it's amazing how far the web platform has come, but also in the problems that still plague it.",
+   "best_author": "mzarate06",
+   "best_story": "Ask HN: What's the best technical talk you've heard?",
+   "best_points": 0
+  },
+  {
+   "video_id": "Own-89vxYF8",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "brilliant talk youtube"
+   ],
+   "story_titles": [
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "On the Road to Computer Literacy",
+   "channel": "Stanford",
+   "channel_url": "https://www.youtube.com/@stanford",
+   "thumbnail": "https://i.ytimg.com/vi/Own-89vxYF8/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 3,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 3
+   },
+   "views": 4156,
+   "published": "2008-05-13",
+   "duration": 5046,
+   "yt_url": "https://www.youtube.com/watch?v=Own-89vxYF8",
+   "id": "v095",
+   "best_text": "A similar talk: http://www.youtube.com/watch?v=Own-89vxYF8",
+   "best_author": "moioci",
+   "best_story": "Ask HN: What's the best technical talk you've heard?",
+   "best_points": 0
+  },
+  {
+   "video_id": "4LG-RtcSYUQ",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "brilliant talk youtube"
+   ],
+   "story_titles": [
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "Dynamic Languages Wizards Series - Panel on Runtime",
+   "channel": "Eduardo Cavazos",
+   "channel_url": "https://www.youtube.com/@dharmatech",
+   "thumbnail": "https://i.ytimg.com/vi/4LG-RtcSYUQ/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 2728,
+   "published": "2012-04-05",
+   "duration": 6353,
+   "yt_url": "https://www.youtube.com/watch?v=4LG-RtcSYUQ",
+   "id": "v096",
+   "best_text": "Dynamic Languages Wizards Series - Panel on Runtime: https://www.youtube.com/watch?v=4LG-RtcSYUQ",
+   "best_author": "bluefox",
+   "best_story": "Ask HN: What's your favorite tech talk?",
+   "best_points": 0
+  },
+  {
+   "video_id": "at7viw2KXak",
+   "repeat_count": 1,
+   "rec_votes": 1,
+   "talk_votes": 1,
+   "score": 4,
+   "queries": [
+    "brilliant talk youtube"
+   ],
+   "story_titles": [
+    "Ask HN: What's the best technical talk you've heard?"
+   ],
+   "yt_title": "Dynamic Languages Wizards Series - Panel on Compilation",
+   "channel": "Eduardo Cavazos",
+   "channel_url": "https://www.youtube.com/@dharmatech",
+   "thumbnail": "https://i.ytimg.com/vi/at7viw2KXak/hqdefault.jpg",
+   "lane": "craft",
+   "lane_score": 1,
+   "lane_scores": {
+    "security": 0,
+    "hpc": 0,
+    "craft": 1
+   },
+   "views": 1054,
+   "published": "2012-04-05",
+   "duration": 5479,
+   "yt_url": "https://www.youtube.com/watch?v=at7viw2KXak",
+   "id": "v097",
+   "best_text": "http://www.youtube.com/watch?v=4LG-RtcSYUQ http://www.youtube.com/watch?v=agw-wlHGi0E (features pg) http://www.youtube.com/watch?v=at7viw2KXak",
+   "best_author": "noblethrasher",
+   "best_story": "Ask HN: What's the best technical talk you've heard?",
+   "best_points": 0
+  }
+ ]
+}
